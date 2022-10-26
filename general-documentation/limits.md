@@ -16,7 +16,7 @@
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
                         API ключ не було вказано. Детальніше про
-                        <a href="/docs/api-key/">використання</a> API ключа дивитись у розділі "Використання API Key" .
+                        <a href="https://api-docs-v2.readthedocs.io/ru/latest/general-documentation/api_key.html">використання</a> API ключа дивитись у розділі "Використання API Key" .
                     </td>
                 </tr>
                 <tr>
@@ -24,7 +24,7 @@
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
                         Було вказано неправильний ключ API. Переконайтеся, що було вказано коректний API ключ, або
-                        <a href="/signup/">зареєструйтеся</a> для отримання ключа.
+                        <a href="https://developers.ria.com/signup">зареєструйтеся</a> для отримання ключа.
                     </td>
                 </tr>
                 <tr>
@@ -32,7 +32,7 @@
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
                         API ключ було вимкнено адміністратором. Будь ласка
-                        <a href="/contact/">зв'яжіться з нами</a> для допомоги.
+                        <a href="https://developers.ria.com/contact">зв'яжіться з нами</a> для допомоги.
                     </td>
                 </tr>
                 <tr>
@@ -40,7 +40,7 @@
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
                        API ключ не авторизований для доступу до цього сервісу. Будь ласка
-                        <a href="/contact/">зв'яжіться з нами</a> для допомоги.
+                        <a href="https://developers.ria.com/contact">зв'яжіться з нами</a> для допомоги.
                     </td>
                 </tr>
                 <tr>
@@ -48,7 +48,7 @@
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
                         API ключ не підтверджено. Перевірте свою електронну пошту для підтвердження API ключа. Будь ласка
-                        <a href="/contact/">зв'яжіться з нами</a> для допомоги.
+                        <a href="https://developers.ria.com/contact">зв'яжіться з нами</a> для допомоги.
                     </td>
                 </tr>
                 <tr>
@@ -62,8 +62,8 @@
                     <td class="doc-parameter-name">429</td>
                     <td class="doc-parameter-description">
                         Перевищено ліміт запитів для цього API ключа.
-                        <a href="/contact/">Зв'яжіться з нами</a> для отримання додаткової інформації про
-                        <a href="/docs/rate-limits/"> ліміти веб-сервісів</a> .
+                        <a href="https://developers.ria.com/contact">Зв'яжіться з нами</a> для отримання додаткової інформації про
+                        <a href="https://api-docs-v2.readthedocs.io/ru/latest/general-documentation/rate_limits.html"> ліміти веб-сервісів</a> .
                     </td>
                 </tr>
                 <tr>

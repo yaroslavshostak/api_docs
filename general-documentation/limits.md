@@ -1,13 +1,13 @@
-### Общие Ошибки Веб-Службы
+### Загальні Помилки Веб-Служби
 
-Определенные распространенные ошибки будут возвращены стандартным способом из всех веб-сервисов API RIA.com. Кроме того, некоторые сообщение об ошибках могут быть специфичными для некоторых сервисов (см. документацию для конкретного сервиса). Ниже описаны распространенные ошибки:
+Певні поширені помилки будуть повернуті стандартним способом з усіх веб-сервісів API RIA.com. Крім того, деякі повідомлення про помилки можуть бути специфічними для деяких сервісів (дивитись документацію для конкретного сервісу). Нижче описано поширені помилки:
 
 <table>
 <thead>
                 <tr>
                     <th class="doc-parameters-name" scope="col" style="width: 100px;">Error Code</th>
                     <th class="doc-parameters-name" scope="col" style="width: 100px;">HTTP Status Code</th>
-                    <th class="doc-parameters-required" scope="col">Описание</th>
+                    <th class="doc-parameters-required" scope="col">Опис</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -15,62 +15,62 @@
                     <th class="doc-parameter-name" scope="row">API_KEY_MISSING</th>
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
-                        API ключ не был указан. Подробнее об
-                        <a href="/docs/api-key/">использовании</a> API ключа см. в разделе “Использование API Key” .
+                        API ключ не було вказано. Детальніше про
+                        <a href="/docs/api-key/">використання</a> API ключа дивитись у розділі "Використання API Key" .
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">API_KEY_INVALID</th>
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
-                        Был указан неверный ключ API. Убедитесь, что был указан корректный API ключ, или
-                        <a href="/signup/">зарегистрируйтесь</a> для получения ключа.
+                        Було вказано неправильний ключ API. Переконайтеся, що було вказано коректний API ключ, або
+                        <a href="/signup/">зареєструйтеся</a> для отримання ключа.
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">API_KEY_DISABLED</th>
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
-                        API ключ был отключен администратором. Пожалуйста
-                        <a href="/contact/">свяжитесь с нами</a> для помощи.
+                        API ключ було вимкнено адміністратором. Будь ласка
+                        <a href="/contact/">зв'яжіться з нами</a> для допомоги.
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">API_KEY_UNAUTHORIZED</th>
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
-                        API ключ не авторизован для доступа к данному сервису. Пожалуйста
-                        <a href="/contact/">свяжитесь с нами</a> для помощи.
+                       API ключ не авторизований для доступу до цього сервісу. Будь ласка
+                        <a href="/contact/">зв'яжіться з нами</a> для допомоги.
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">API_KEY_UNVERIFIED</th>
                     <td class="doc-parameter-name">403</td>
                     <td class="doc-parameter-description">
-                        API ключ не подтвержден. Проверьте свою электронную почту для подтверждения API ключа. Пожалуйста
-                        <a href="/contact/">свяжитесь с нами</a> для помощи.
+                        API ключ не підтверджено. Перевірте свою електронну пошту для підтвердження API ключа. Будь ласка
+                        <a href="/contact/">зв'яжіться з нами</a> для допомоги.
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">HTTPS_REQUIRED</th>
                     <td class="doc-parameter-name">400</td>
-                    <td class="doc-parameter-description">Запросы к этому API должны быть произведены по HTTPS протоколу.                                                            Убедитесь, пожалуйста, что Вы используете HTTPS протокол для Вашего                                                          запроса.
+                    <td class="doc-parameter-description">Запити до цього API мають бути зроблені за HTTPS протоколом.                                                            Переконайтеся, будь ласка, що Ви використовуєте HTTPS протокол для Вашого                                                           запиту.
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">OVER_RATE_LIMIT</th>
                     <td class="doc-parameter-name">429</td>
                     <td class="doc-parameter-description">
-                        Превышен лимит запросов для данного API ключа.
-                        <a href="/contact/">Свяжитесь с нами</a> для получения дополнительной информации о
-                        <a href="/docs/rate-limits/"> лимитах веб-сервисов</a> .
+                        Перевищено ліміт запитів для цього API ключа.
+                        <a href="/contact/">Зв'яжіться з нами</a> для отримання додаткової інформації про
+                        <a href="/docs/rate-limits/"> ліміти веб-сервісів</a> .
                     </td>
                 </tr>
                 <tr>
                     <th class="doc-parameter-name" scope="row">NOT_FOUND</th>
                     <td class="doc-parameter-name">404</td>
                     <td class="doc-parameter-description">
-                        Не удалось найти API по данному URL-адресу. Проверьте свой URL.
+                       Не вдалося знайти API за цією URL-адресою. Перевірте свій URL.
                     </td>
                 </tr>
                 </tbody>

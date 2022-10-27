@@ -1,38 +1,39 @@
-### Города
+### Міста
 
-Города зависят от областей, поэтому, чтобы получить их список, необходимо послать GET запрос по адресу `https://developers.ria.com/auto/states/:stateId/cities?api_key=YOUR_API_KEY`, где *stateId* - идентификатор области, *api_key*- Ваш ключ.
+Міста залежать від областей - тому, щоб отримати їх список, необхідно надіслати GET запит за адресою `https://developers.ria.com/auto/states/:stateId/cities?api_key=YOUR_API_KEY`, де *stateId* - ідентифікатор області, *api_key*- Ваш ключ.
 
-Например, для Винницкой области ([https://developers.ria.com/auto/states/1/cities?api_key=YOUR_API_KEY](https://developers.ria.com/auto/states/1/cities?api_key=YOUR_API_KEY)) список городов будет следующим:
+Наприклад, для Вінницької області ([https://developers.ria.com/auto/states/1/cities?api_key=YOUR_API_KEY](https://developers.ria.com/auto/states/1/cities?api_key=YOUR_API_KEY)) список міст буде таким:
 ```javascript
 [
-    { name: "Винница", value: 1 },
-    { name: "Жмеринка", value: 27 },
-    { name: "Казатин", value: 30 },
-    { name: "Крыжополь", value: 31 },
-    { name: "Липовец", value: 32 },
-    { name: "Литин", value: 33 },
-    { name: "Могилев-Подольский", value: 34 },
-    { name: "Мурованые Куриловцы", value: 35 },
-    { name: "Немиров", value: 36 },
-    { name: "Оратов", value: 37 },
-    { name: "Песчанка", value: 38 },
-    { name: "Погребище", value: 39 },
-    { name: "Теплик", value: 40 },
-    { name: "Тывров", value: 41 },
-    { name: "Томашполь", value: 42 },
-    { name: "Тростянец", value: 43 },
-    { name: "Тульчин", value: 44 },
-    { name: "Хмельник", value: 45 },
-    { name: "Черновцы", value: 46 },
-    { name: "Чечельник", value: 47 },
-    { name: "Шаргород", value: 48 },
-    { name: "Ямполь", value: 49 },
-    { name: "Бар", value: 597 },
-    { name: "Бершадь", value: 599 },
-    { name: "Гайсин", value: 602 },
-    { name: "Ильинцы", value: 603 },
-    { name: "Калиновка", value: 604 },
-    { name: "Гнивань", value: 609 },
-    { name: "Ладыжин", value: 644 }
+    {"name":"Вінниця","value":1},
+    {"name":"Жмеринка","value":27},
+    {"name":"Козятин","value":30},
+    {"name":"Крижопіль","value":31},
+    {"name":"Липовець","value":32},
+    {"name":"Літин","value":33},
+    {"name":"Могилів-Подільський","value":34},
+    {"name":"Муровані Курилівці","value":35},
+    {"name":"Немирів","value":36},
+    {"name":"Оратів","value":37},
+    {"name":"Піщанка","value":38},
+    {"name":"Погребище","value":39},
+    {"name":"Теплик","value":40},
+    {"name":"Тиврів","value":41},
+    {"name":"Томашпіль","value":42},
+    {"name":"Тростянець","value":43},
+    {"name":"Тульчин","value":44},
+    {"name":"Хмільник","value":45},
+    {"name":"Чернівці","value":46},
+    {"name":"Чечельник","value":47},
+    {"name":"Шаргород","value":48},
+    {"name":"Ямпіль","value":49},
+    {"name":"Бар","value":597},
+    {"name":"Бершадь","value":599},
+    {"name":"Гайсин","value":602},
+    {"name":"Іллінці","value":603},
+    {"name":"Калинівка","value":604},
+    {"name":"Гнівань","value":609},
+    {"name":"Ладижин","value":644},
+    {"name":"Якушинці","value":1595}
 ]
 ```

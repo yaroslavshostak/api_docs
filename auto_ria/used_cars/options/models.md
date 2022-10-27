@@ -1,8 +1,8 @@
-### Модели
+### Моделі
 
-Модели зависят от типов транспорта и марок. Следовательно список марок можно получить по адресу `http://api.auto.ria.com/categories/:categoryId/marks/:markId/models?api_key=YOUR_API_KEY`, где *categoryId* - идентификатор типа транспорта а *markId* - идентификатор марки, *api_key*- Ваш ключ.
+Моделі залежать від типів транспорту і марок. Тому список марок можна отримати за адресою `http://api.auto.ria.com/categories/:categoryId/marks/:markId/models?api_key=YOUR_API_KEY`, де *categoryId* - ідентифікатор типу транспорту, а *markId* - ідентифікатор марки, *api_key* - Ваш ключ.
 
-Например, для мотоциклов BMW ([https://developers.ria.com/auto/categories/2/marks/9/models?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/2/marks/9/models?api_key=YOUR_API_KEY)), список моделей будет следующим:
+Наприклад, для мотоциклів BMW ([https://developers.ria.com/auto/categories/2/marks/9/models?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/2/marks/9/models?api_key=YOUR_API_KEY)), список моделей буде таким:
 ```javascript
 [
     { name: "Adventure", value: 25290 },
@@ -24,9 +24,9 @@
 ]
 ```
 
-Модели, также как и типы кузовов, могут быть сгруппированы. Чтобы получить такой список, необходимо отправить запрос по адресу `https://developers.ria.com/auto/categories/:categoryId/marks/:markId/models/_group?api_key=YOUR_API_KEY`, где *categoryId* - идентификатор типа транспорта а *markId* - идентификатор марки, *api_key*- Ваш ключ.
+Моделі, так само як і типи кузовів, можуть бути згруповані. Щоб отримати такий список, необхідно надіслати запит за адресою `https://developers.ria.com/auto/categories/:categoryId/marks/:markId/models/_group?api_key=YOUR_API_KEY`, де *categoryId* - ідентифікатор типу транспорту, а *markId* - ідентифікатор марки, *api_key* - Ваш ключ.
 
-Например, для легковых автомобилей BMW ([https://developers.ria.com/auto/categories/1/marks/9/models/_group?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/1/marks/9/models/_group?api_key=YOUR_API_KEY)), список моделей будет следующим:
+Наприклад, для легкових автомобілів BMW ([https://developers.ria.com/auto/categories/1/marks/9/models/_group?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/1/marks/9/models/_group?api_key=YOUR_API_KEY)), список моделей буде таким:
 ```javascript
 [
     [
@@ -68,6 +68,6 @@
     { name: "Z8", value: 100 }
 ]
 ```
-Формат данных такой же как и в случае с типа кузова - коллекция объектов, в которой могут быть другие объекты. Группа моделей всегда начинается с её названия.
+Формат даних такий самий як і у випадку з типом кузова - колекція об'єктів у якій можуть бути інші об'єкти. Група моделей завжди починається з її назви.
 
-Также, при необходимости, можно просто получить список всех моделей, отправив GET запрос по адресу [https://developers.ria.com/auto/models?api_key=YOUR_API_KEY](https://developers.ria.com/auto/models?api_key=YOUR_API_KEY).
+Також, за необхідності, можна просто отримати список усіх моделей, надіславши GET запит за адресою [https://developers.ria.com/auto/models?api_key=YOUR_API_KEY](https://developers.ria.com/auto/models?api_key=YOUR_API_KEY).

@@ -1,8 +1,8 @@
 ### Марки
 
-Марки зависят от типов транспорта. Поэтому для того, чтобы получить список марок необходимо отправить GET запрос по адресу `https://developers.ria.com/auto/categories/:categoryId/marks?api_key=YOUR_API_KEY`, где *categoryId* - идентификатор типа транспорта, *api_key*- Ваш ключ.
+Марки залежать від типів транспорту. Тому для того, щоб отримати список марок необхідно надіслати GET запит за адресою `https://developers.ria.com/auto/categories/:categoryId/marks?api_key=YOUR_API_KEY`, де *categoryId* -  ідентифікатор типу транспорту, *api_key*- Ваш ключ.
 
-Например, для легковых автомобилей ([https://developers.ria.com/auto/categories/1/marks?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/1/marks?api_key=YOUR_API_KEY)), результат будет следующим:
+Наприклад, для легкових автомобілів ([https://developers.ria.com/auto/categories/1/marks?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/1/marks?api_key=YOUR_API_KEY)), результат буде таким:
 ```javascript
 [
     { name: "Acura", value: 98 },

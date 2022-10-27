@@ -1,12 +1,12 @@
-### Типы привода
+### Типи приводу
 
-Типы привода также зависят от тиа транспорта, поэтому, чтобы получить их список, необходимо плсать GET запрос по адресу `https://developers.ria.com/auto/categories/:categoryId/driverTypes?api_key=YOUR_API_KEY`, где *categoryId* - идентификатор типа транспорта, *api_key*- Ваш ключ.
+Типи приводу також залежать від типу транспорту - тому, щоб отримати їхній список, необхідно надіслати GET запит за адресою `https://developers.ria.com/auto/categories/:categoryId/driverTypes?api_key=YOUR_API_KEY`, де *categoryId* - ідентифікатор типу транспорту, *api_key*- Ваш ключ.
 
-Например, список типов привода для мотоциклов ([https://developers.ria.com/auto/categories/2/driverTypes?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/2/driverTypes?api_key=YOUR_API_KEY)) выглядит следующим образом:
+Наприклад, список типів приводу для мотоциклів ([https://developers.ria.com/auto/categories/2/driverTypes?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/2/driverTypes?api_key=YOUR_API_KEY))виглядає таким чином:
 ```javascript
 [
-    { name: "Кардан", value: 4 },
-    { name: "Ремень", value: 5 },
-    { name: "Цепь", value: 6 }
+    {"name":"Кардан","value":4},
+    {"name":"Ремінь","value":5},
+    {"name":"Ланцюг","value":6}
 ]
 ```

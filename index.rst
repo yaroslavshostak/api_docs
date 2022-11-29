@@ -4,28 +4,28 @@ Developers.RIA.com
 
 
 .. toctree::
-   :caption: Документация
+   :caption: Документація
    :maxdepth: 2
 
    auto_ria/index
 
 
 .. toctree::
-   :caption: Документация
+   :caption: Документація
    :maxdepth: 2
 
    dom_ria/index
 
 
 .. toctree::
-   :caption: Документация
+   :caption: Документація
    :maxdepth: 1
 
    ria_com/index
 
 
 .. toctree::
-   :caption: Общая документация
+   :caption: Загальна документація
    :maxdepth: 1
 
    general-documentation/limits

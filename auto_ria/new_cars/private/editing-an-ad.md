@@ -1,31 +1,31 @@
-## Редактирование объявления
+## Редагування оголошення
 
-Для редактирования основной информации объявления, вам необходимо отправить **PUT** запрос такого вида:
+Для редагування основної інформації оголошення, вам необхідно надіслати **PUT** запит такого типу:
 
 `curl -X PUT "https://developers.ria.com/auto/new/autos?user_id=Ваш id&auto_id=id&`
-`currency_id=id&price=Цена&auto_note=Test&in_stock=id&test_drive=id&api_key=YOUR_API_KEY"`
+`currency_id=id&price=Ціна&auto_note=Test&in_stock=id&test_drive=id&api_key=YOUR_API_KEY"`
 ` -H "accept: application/json" -H "Content-Length: 0"`
 
-Обязательными параметрами являются:
-- *user_id* - Ваш ID в системе RIA.com
-- *auto_id* - ID нужного Вам объявления
-- *currency_id* - Валюта в которой продаете автомобиль (1 - доллары США, 2 - евро, 3 - гривна)
-- *Content-Length* - размер возвращаемого документа (Content-Length: 0)
+Обов'язковими параметрами є:
+- *user_id* - Ваш ID у системі RIA.com
+- *auto_id* - ID потрібного Вам оголошення
+- *currency_id* - Валюта в якій продаєте автомобіль (1 - долари США, 2 - євро, 3 - гривня)
+- *Content-Length* - розмір документа, що повертається (Content-Length: 0)
 
-Дополнительные параметры:
-- *price* - Цена
-- *auto_note* - Описание
-- *version* - Версия (пример 2.0 TDI)
-- *in_stock* - В наличии   (1 - в наличии, 0 - нет в наличии)
-- *test_drive* - Возможность пройти тест драйв (1 - есть возможность, 0 - нету возможности)
-
-**Пример запроса**
+Додаткові параметри:
+- *price* - Ціна
+- *auto_note* - Опис
+- *version* - Версія ( наприклад 2.0 TDI)
+- *in_stock* - У наявності   (1 - у наявності, 0 - немає в наявності)
+- *test_drive* - Можливість пройти тест драйв (1 - є можливість, 0 - немає можливості)
+- 
+**Приклад запиту**
 
 `curl -X PUT "https://developers.ria.com/auto/new/autos?user_id=4784009&auto_id=1696388&currency_id=2&`
 `price=55000&auto_note=Test&in_stock=0&test_drive=0&api_key=YOUR_API_KEY"`
 ` -H "accept: application/json" -H "Content-Length: 0"`
 
-**Пример успешного ответа:**
+**Приклад успішної відпвовіді:**
 
 ```javascript
 {"num_rows":1,

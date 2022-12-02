@@ -1,20 +1,20 @@
-### Список объявлений пользователя
+### Список оголошень користувача
 
-Чтобы получить список объявлений, Вам необходимо выполнить GET запрос такого вида:
+Щоб отримати список оголошень, Вам необхідно виконати GET запит такого формату:
 
-https://developers.ria.com/auto/used/autos/ids?user_id=Ваш ID в системе RIA.com&api_key=YOUR_API_KEY
+https://developers.ria.com/auto/used/autos/ids?user_id=Ваш ID в системі RIA.com&api_key=YOUR_API_KEY
 
-или 
+або 
 ````javascript
 curl -X GET "https://developers.ria.com/auto/used/autos/ids?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json"
 `````
-, где *user_id* - Ваш ID в системе RIA.com, *api_key* - Ваш ключ.
+де *user_id* - Ваш ID в системі RIA.com, *api_key* - Ваш ключ.
 
-**Пример запроса**
+**Приклад запиту**
 ````javascript
 curl -X GET "https://developers.ria.com/auto/used/autos/ids?user_id=7069830&api_key=YOUR_API_KEY" -H "accept: application/json"
 `````
-**Пример успешного ответа:**
+**Приклад успішної відповіді:**
 
 ```json
 {
@@ -38,12 +38,12 @@ curl -X GET "https://developers.ria.com/auto/used/autos/ids?user_id=7069830&api_
   ]
 }
 ```
-Расшифровка параметров:
- - *active* - Активные объявления
- - *moderated* - Объявления находятся на модерации
- - *notModerated* - Объявления не от модерировано
- - *draft* - Объявления находятся в черновиках
- - *awaitingPayment* - Объявления ожидают оплаты
- - *archive* - Объявления в архиве
+Розшифрування параметрів:
+ - *active* - Активні оголошення
+ - *moderated* - Оголошення перебувають на модерації
+ - *notModerated* - Оголошення не відмодеровано
+ - *draft* - Оголошення знаходяться в чернетках
+ - *awaitingPayment* - Оголошення очікують оплати
+ - *archive* - Оголошення в архіві
 
-Полное описание сервиса "Список объявлений пользователя" описаний с помощью стандарта **DeFacto swagger 2.0** [здесь](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+Повний опис сервісу "Список оголошень користувача" описано за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

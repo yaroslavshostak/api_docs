@@ -23,5 +23,4 @@
    information-about-options
    adding-options
    remove-options
-   adding-a-filter
    adding-fotos

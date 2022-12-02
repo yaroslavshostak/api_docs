@@ -1,20 +1,20 @@
-### Статистика объявления
+### Статистика оголошення
 
-Чтобы получить статистику об обьявлении, Вам необходимо выполнить GET запрос такого вида:
+Щоб отримати статистику про оголошення, Вам необхідно виконати GET запит такого типу:
 
 https://developers.ria.com/auto/used/autos/advertisementId/statistic?user_id=Ваш ID&api_key=YOUR_API_KEY
 
-или 
+або 
 ````javascript
 curl -X GET "https://developers.ria.com/auto/used/autos/advertisementId/statistic?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json"
 `````
-, где *user_id* - Ваш ID в системе RIA.com, *advertisementId* - ID нужного Вам объявления, *api_key* - Ваш ключ.
+де *user_id* - Ваш ID в системі RIA.com, *advertisementId* - ID потрібного Вам оголошення, *api_key* - Ваш ключ.
 
-**Пример запроса**
+**Приклад запиту**
 ````javascript
 curl -X GET "https://developers.ria.com/auto/used/autos/20268839/statistic?user_id=7069830&api_key=YOUR_API_KEY" -H "accept: application/json""`
 ````
-**Пример успешного ответа:**
+**Приклад успішної відповіді:**
 
 ```json
 {
@@ -22,9 +22,9 @@ curl -X GET "https://developers.ria.com/auto/used/autos/20268839/statistic?user_
   "clicks": 24
 }
 ```
-Расшифровка параметров:
+Розшифрування параметрів:
 
-- *views* - Количество просмотров объявления
-- *clicks* - Количество открытий номера телефона
+- *views* - Кількість переглядів оголошення
+- *clicks* - Кількість відкриттів номера телефону
 
- Полное описание сервиса "Статистика объявления" описаный с помощью стандарта **DeFacto swagger 2.0** [здесь](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+ Повний опис сервісу "Статистика оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

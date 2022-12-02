@@ -1,19 +1,19 @@
-### Удаление объявления
+### Видалення оголошення
 
-Для удаления объявления, Вам необходимо отправить **DELETE** запрос такого вида:
+Для видалення оголошення, Вам необхідно відправити **DELETE** запит такого формату:
 ````javascript
-curl -X DELETE "https://developers.ria.com/auto/used/autos/advertisementId?user_id=Ваш ID&reason_id=id причины удаления&api_key=YOUR_API_KEY" -H "accept: application/json"
+curl -X DELETE "https://developers.ria.com/auto/used/autos/advertisementId?user_id=Ваш ID&reason_id=id причини видалення&api_key=YOUR_API_KEY" -H "accept: application/json"
 `````
-, где *user_id* - Ваш ID в системе RIA.com, *advertisementId* - ID нужного Вам объявления, *reason_id* - причина удаления, *api_key* - Ваш ключ.
+де *user_id* - Ваш ID в системі RIA.com, *advertisementId* - ID потрібного Вам оголошення, *reason_id* - причина видалення, *api_key* - Ваш ключ.
 
-**reason_id** состоит из 4 категорий:
-- **reason_id**=**4** - Авто продано с помощью AUTO.RIA.com
-- **reason_id**=**5** - Авто продано в другом месте
-- **reason_id**=**6** - Я хочу разместить объявление заново
-- **reason_id**=**7** - Я передумал продавать автомобиль
+**reason_id** складається з 4 категорій:
+- **reason_id**=**4** - Авто продано за допомогою AUTO.RIA.com
+- **reason_id**=**5** - Авто продано в іншому місці
+- **reason_id**=**6** - Я хочу розмістити оголошення знову
+- **reason_id**=**7** - Я передумав продавати автомобіль
 
-**Пример запроса**
+**Приклад запиту**
 ````javascript
 curl -X DELETE "https://developers.ria.com/auto/used/autos/20460133?user_id=7069830&reason_id=7&api_key=YOUR_API_KEY" -H "accept: application/json"`
 `````
- Полное описание сервиса "Удаление объявления" описаный с помощью стандарта **DeFacto swagger 2.0** [здесь](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+ Повний опис сервісу "Видалення оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

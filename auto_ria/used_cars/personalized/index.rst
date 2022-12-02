@@ -23,7 +23,5 @@
    information-about-options
    adding-options
    remove-options
-   filter-for-exchange
    adding-a-filter
-   remove-the-filter
    adding-fotos

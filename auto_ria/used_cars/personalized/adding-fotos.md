@@ -1,25 +1,25 @@
-### Добавления фотографий к объявлению
+### Додавання фото до оголошення
 
-Для добавления фотографий к объявлению, Вам необходимо выполнить POST запрос такого вида:
+Для додавання фотографій до оголошення, Вам необхідно виконати POST запит такого типу:
 ````javascript
-curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/photos/upload?user_id=Ваш ID&api_key=YOUR API KEY" -H "accept: application/json" -H "content-type: application/json" -d "{ \"main\": \"главная фотография\", \"links\": [ \"фотографии" ]}"
+curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/photos/upload?user_id=Ваш ID&api_key=YOUR API KEY" -H "accept: application/json" -H "content-type: application/json" -d "{ \"main\": \"головне фото\", \"links\": [ \"фотографії" ]}"
 ````
-Расшифровка параметров:
+Розшифрування параметрів:
 
-- *advertisementId* - ID нужного Вам объявления
-- *user_id* - Ваш ID в системе RIA.com
+- *advertisementId* - ID потрібного Вам оголошення
+- *user_id* - Ваш ID у системі RIA.com
 - *api_key* - Ваш ключ
-- *`-d "{ \"main\": \"ссылка на главную фотографию\", \"links\": [ \"ссылки на фотографии" ]}"`* - здесь Вы указываете массив фотографий которые хотите добавить. В каждой ссылке на изображение должен присутствовать формат
+- *`-d "{ \"main\": \"посилання на головну фотографію\", \"links\": [ \"посилання на фотографії" ]}"`* - тут Ви вказуєте масив фотографій, які хочете додати. У кожному посиланні на зображення має бути присутній формат
 
-Фотографии будут добавлены не по очередности, а в случайном порядке.
+Фотографії будуть додані не за черговістю, а у випадковому порядку.
 
-Полное описание сервиса "Добавления фотографий к объявлению" описаный с помощью стандарта **DeFacto swagger 2.0** [здесь](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+Повний опис сервісу "Додавання фотографій до оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)
 
-**Пример запроса**
+**Приклад запиту**
 ````javascript
 curl -X POST "https://developers.ria.com/auto/used/autos/21739303/photos/upload?user_id=7069830&api_key=bVjbA3izvnu04o7Pliw41bXAlY3mIj03CfQpeMNC" -H "accept: application/json" -H "content-type: application/json" -d "{ \"main\": \"https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471725fx.jpg\", \"links\": [ \"https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471725fx.jpg\", \"https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471726fx.jpg\" ]}"
 `````
-**Пример успешного ответа**
+**Приклад успішної відповіді**
 ````javascript
 {"message":"Ok","errors":[]}
 ````

@@ -1,16 +1,16 @@
-### Добавление опций
+### Додавання опцій
 
-Для добавления опций в объявление, Вам необходимо выполнить PUT запрос такого вида:
+Для додавання опцій в оголошення, Вам необхідно виконати PUT запит такого виду:
 ````javascript
-curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/options?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json" -d "[ { \"id\": ID опции }]"
+curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/options?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json" -d "[ { \"id\": ID опції }]"
 ````
-, где *user_id* - Ваш ID в системе RIA.com, *advertisementId* - ID нужного Вам объявления, "id": - ID нужной Вам опции, *api_key* - Ваш ключ.
+де *user_id* - Ваш ID в системі RIA.com, *advertisementId* - ID потрібного Вам оголошення, "id": - ID потрібної Вам опції, *api_key* - Ваш ключ.
 
-**Пример запроса**
+**Приклад запиту**
 ````javascript
 curl -X POST "https://developers.ria.com/auto/used/autos/20438832/options?user_id=7069830&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json" -d "[ { \"id\": 525 }]"`
 `````
-**Пример успешного ответа:**
+**Приклад успішної відповіді:**
 ````json
 {"message":"Ok",
 
@@ -18,4 +18,4 @@ curl -X POST "https://developers.ria.com/auto/used/autos/20438832/options?user_i
 
 "success":true}
 ````
- Полное описание сервиса "Добавление опций" описаный с помощью стандарта **DeFacto swagger 2.0** [здесь](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+ Повний опис сервісу "Додавання опцій" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

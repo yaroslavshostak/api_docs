@@ -1,119 +1,115 @@
-# API Поиска
+# API Пошуку
 
 
-Чтобы обратиться к  RIA API search, Вам необходимо выполнить GET запрос такого вида:
+Щоб звернутися до RIA API search, Вам необхідно виконати GET запит такого вигляду:
 
 https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
 
-или `curl -i -g -X GET "https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS" '`
+або `curl -i -g -X GET "https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS" '`
 
-Он состоит из:
+Він складається з:
 
- * **SEARCH** — название метода API, к которому Вы хотите обратиться.
+ * **SEARCH** — назва методу API, до якого Ви хочете звернутися.
 
- * **API_KEY** — ключ доступа. Для получения ключа доступа нужно зарегестрироватся на портале dev.ria.com 
+ * **API_KEY** — ключ доступу. Для отримання ключа доступу потрібно зареєструватися на платформі developers.ria.com 
 
- * **PARAMETERS** — входные параметры, последовательность пар name=value, разделенных амперсандом. Список параметров указан  [здесь](#user-content-Список-параметров)
+ * **PARAMETERS** — вхідні параметри, послідовність пар name=value, розділених амперсандом. Список параметрів вказано [тут](#user-content-Список-параметров)
  
 
-В ответ на такой запрос Вы получите ответ в формате JSON:
+У відповідь на такий запит Ви отримаєте відповідь у форматі JSON:
 
 ```javascript
 [
  {
   "additional_params": {
-    "lang_id": 2,                                             // Русский язык
-    "page": 0,                                                // Порядеовый номер страницы
+    "lang_id": 2,                                             // Російська мова
+    "page": 0,                                                // Порядковий номер сторінки
     "view_type_id": 0,
     "target": "search",
-    "section": "auto",                                        // Поиск по авто
+    "section": "auto",                                        // Пошук по авто
     "catalog_name": "",
     "elastica": true,
     "nodejs": true
   },
-  "result": {                                                // Результат поиска
+  "result": {                                                // Результат пошуку
     "search_result": {
-      "ids": [                                               // id объявлений
+      "ids": [                                               // id оголошень
         ....
         ....
         ....
         
       ],
-      "count": 11,                                          // Количество id объявлений доступных по заданым параметрам
+      "count": 11,                                          // Кількість id оголошень доступних за заданими параметрами
       "last_id": 0,
       "qs": {
         "fields": [
           "_id"
         ],
-        "size": 50,                                         // Количество отображаемых id объявлений
+        "size": 50,                                         // Кількість id оголошень, що відображаються
         "from": 0,  
  ]
 ```
 
-## Пример
+## Приклад
 
-Допустим Вы ищете:
+Припустимо, Ви шукаєте:
 
-* Легковые машины                                            ``(category_id=1)``
-* Кузов *Седан*,*Универсал*                                 `(bodystyle[0]=3&bodystyle[4]=2)`
-* Япония                                                   `(brandOrigin[0]=276)`
+* Легкові машини                                            ``(category_id=1)``
+* Кузов *Седан*,*Універсал*                                 `(bodystyle[0]=3&bodystyle[4]=2)`
+* Японія                                                   `(brandOrigin[0]=276)`
     * Toyota                                               ` (marka_id[0]=79)`
-    * Все модели                                            `(model_id[0]=0)`
-    * Год выпуска от 2010 по 2017г.                        ` (s_yers[0]=2010&po_yers[0]=2017)`
-* Германия                                                  `(brandOrigin[1]=392)`
+    * Всі моделі                                            `(model_id[0]=0)`
+    * Рік випуску від 2010 до 2017р.                        ` (s_yers[0]=2010&po_yers[0]=2017)`
+* Німеччина                                                  `(brandOrigin[1]=392)`
     * Volkswagen                                            `(marka_id[1]=84)`
-    * Все модели                                            `(model_id[1]=0)`
-    * Год выпуска от 2012 по 2016г.                        `(s_yers[1]=2012&po_yers[1]=2016)`      
-* Цена от 1000 до 60000                                     `(price_ot=1000&price_do=60000)`
-    * Цена указана в доларах США                           ` (currency=1)`
-* Возможен торг                                             `(auctionPossible=1)`
-* Возможен обмен на недвижимость                           ` (with_real_exchange=1)`
-* Возможен обмен на автомобиль                             ` (with_exchange=1)`
-    * Марка автомобиля любая                               ` (exchange_filter[marka_id]=0)`
-    * Модель автомобиля любая                              ` (exchange_filter[model_id]=0)`
+    * Всі моделі                                            `(model_id[1]=0)`
+    * Рік випуску від 2012 до 2016р.                        `(s_yers[1]=2012&po_yers[1]=2016)`      
+* Ціна від 1000 до 60000                                     `(price_ot=1000&price_do=60000)`
+    * Ціна вказана в доларах США                           ` (currency=1)`
+* Можливий торг                                             `(auctionPossible=1)`
 * Область
-    * Винницкая - поиск по всем городам этой области       ` (state[0]=1&city[0]=0)`
-    * Житомирская - поиск по всем городам этой области     ` (state[1]=2&city[1]=0)`
-    * Киевская - поиск по всем городам этой области        ` (state[2]=10&city[2]=0)`
-* Не отображать авто которые находяться не в Украине       ` (abroad=2)`
-* Не отображать нерастаможенные авто                       ` (custom=1)`
-* Гаражное хранение                                         `(auto_options[477]=477)`
-* Топливо
+    * Вінницька - пошук по всіх містах цієї області       ` (state[0]=1&city[0]=0)`
+    * Житомирська - пошук по всіх містах цієї області     ` (state[1]=2&city[1]=0)`
+    * Київська - пошук по всіх містах цієї області        ` (state[2]=10&city[2]=0)`
+* Не відображати авто, які знаходяться не в Україні       ` (abroad=2)`
+* Не відображати нерозмитнені авто                       ` (custom=1)`
+* Гаражне зберігання                                         `(auto_options[477]=477)`
+* Паливо
     * Бензин                                                `(type[0]=1)`
     * Дизель                                                `(type[1]=2)`
     * Газ/бензин                                            `(type[3]=4)`
-    * Электро                                               `(type[5]:6)`
+    * Електро                                               `(type[5]:6)`
 * КПП
-    * Ручная / Механика                                     `(gearbox[0]=1)`
+    * Ручна / Механіка                                     `(gearbox[0]=1)`
     * Автомат                                               `(gearbox[1]=2)`
-    * Типтроник                                             `(gearbox[2]=3)`
-* Объем 1.4 - 3.2 л.                                        `(engineVolumeFrom=1.4&engineVolumeTo=3.2)`
-* Мощность 90 - 250                                         `(powerFrom=90&powerTo=250)`
-    * Единица измерения мощности - л.с                      `(power_name=1)`
-* Только с фото                                             `(with_photo=1)`
+    * Типтронік                                             `(gearbox[2]=3)`
+* Об'єм 1.4 - 3.2 л.                                        `(engineVolumeFrom=1.4&engineVolumeTo=3.2)`
+* Потужність 90 - 250                                         `(powerFrom=90&powerTo=250)`
+    * Одиниця виміру потужності - к.с.                      `(power_name=1)`
+* Тільки з фото                                             `(with_photo=1)`
 
-В итоге мы получаем запрос такого [вида]:
+У підсумку ми отримуємо запит такого [типу]:
 
-[https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&category_id=1&bodystyle[0]=3&....](https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&category_id=1&bodystyle[0]=3&bodystyle[4]=2&marka_id[0]=79&model_id[0]=0&s_yers[0]=2010&po_yers[0]=2017&marka_id[1]=84&model_id[1]=0&s_yers[1]=2012&po_yers[1]=2016&brandOrigin[0]=276&brandOrigin[1]=392&price_ot=1000&price_do=60000&currency=1&auctionPossible=1&with_real_exchange=1&with_exchange=1&exchange_filter[marka_id]=0&exchange_filter[model_id]=0&state[0]=1&city[0]=0&state[1]=2&city[1]=0&state[2]=10&city[2]=0&abroad=2&custom=1&auto_options[477]=477&type[0]=1&type[1]=2&type[3]=4&type[7]=8&gearbox[0]=1&gearbox[1]=2&gearbox[2]=3&engineVolumeFrom=1.4&engineVolumeTo=3.2&powerFrom=90&powerTo=250&power_name=1&countpage=50&with_photo=1)
+[https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&category_id=1&bodystyle[0]=3&....](https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&category_id=1&bodystyle[0]=3&bodystyle[4]=2&marka_id[0]=79&model_id[0]=0&s_yers[0]=2010&po_yers[0]=2017&marka_id[1]=84&model_id[1]=0&s_yers[1]=2012&po_yers[1]=2016&brandOrigin[0]=276&brandOrigin[1]=392&price_ot=1000&price_do=60000&currency=1&auctionPossible=1&state[0]=1&city[0]=0&state[1]=2&city[1]=0&state[2]=10&city[2]=0&abroad=2&custom=1&auto_options[477]=477&type[0]=1&type[1]=2&type[3]=4&type[7]=8&gearbox[0]=1&gearbox[1]=2&gearbox[2]=3&engineVolumeFrom=1.4&engineVolumeTo=3.2&powerFrom=90&powerTo=250&power_name=1&countpage=50&with_photo=1)
 
 
-В случае успешного выполнения запроса по указанным параметрам результат будет со статусом **200 OK**.
+У разі успішного виконання запиту за вказаними параметрами результат буде зі статусом **200 OK**.
 
-Пример успешного ответа:
+Приклад успішної відповіді:
 ```javascript
 [
     {
    "additional_params": {
-     "lang_id": 2,                                  // Русский язык
-     "page": 0,                                     // Порядеовый номер страницы
+     "lang_id": 2,                                  // Російська мова
+     "page": 0,                                     // Порядковий номер сторінки
      "view_type_id": 0,
      "target": "search",
-     "section": "auto",                             // Поиск по авто
+     "section": "auto",                             // Пошук по авто
      "catalog_name": "",
      "elastica": true,
      "nodejs": true
    },
-   "result": {                                      // Результат поиска
+   "result": {                                      // Результат пошуку
      "search_result": {
        "ids": [
          "19519211",
@@ -121,7 +117,7 @@ https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
          "19493489",
          "19714833",
          "19393702",
-         "19692238",                                // id объявлений
+         "19692238",                                // id оголошень
          "19574398",
          "18154136",
          "19391327",
@@ -129,13 +125,13 @@ https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
          "19431563",
          "18047892"
        ],
-       "count": 1,                                 // Количество id объявлений доступных по заданым параметрам
+       "count": 1,                                 // Кількість id оголошень доступних за заданими параметрами
        "last_id": 0, 
        "qs": {
          "fields": [
            "_id"
          ],
-         "size": 50,                                // Количество отображаемых id объявлений
+         "size": 50,                                // Кількість відображуваних id оголошень
          "from": 0,
              } 
             }     
@@ -145,16 +141,16 @@ https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
 ```
 
 
-**Важно**
+**Важливо**
 
-Максимальное количество отображаемых id объявлений за один запрос равно 100(*countpage*).В случае если результат 
-поиска превышает это значение можно добавить параметр *page* (порядковый номер страницы) c помощью которго можно 
-просматреть все результаты поиска.
+Максимальна кількість id оголошень, що відображаються, за один запит дорівнює 100(*countpage*).У разі якщо результат 
+пошуку перевищує це значення можна додати параметр *page* (порядковий номер сторінки) за допомогою якого можна 
+переглянути всі результати пошуку.
 
 ```
 "additional_params": {
     "lang_id": 2,
-    "page": "1",                           // Порядковый номер страницы     
+    "page": "1",                           // Порядковий номер сторінки     
     "view_type_id": 0,
     "target": "search",
     "section": "auto",
@@ -185,7 +181,7 @@ https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
         "18412097",
         "18545537"
       ],
-      "count": 1578,                         // Количество id по результатам поиска
+      "count": 1578,                         // Кількість id за результатами пошуку
       "last_id": 0,
       "qs": {
         "fields": [

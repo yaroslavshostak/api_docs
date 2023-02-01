@@ -1,15 +1,15 @@
-#### Изменение статуса заказа
+#### Зміна статусу замовлення
 
-Что бы изменить статус заказа нужно отправить PUT запрос на адрес
+Щоб змінити статус замовлення, потрібно надіслати PUT запит на адресу
 ````javascript
 curl -X PUT "https://developers.ria.com/ria/basket/orders?user_id=*id*&order_id=*id*&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json"
  -d "{ \"status\": 0}"
  `````
- , где *user_id* - id пользователя, *order_id* - id заказа, *status_id* - id статуса заказа, 
+ , де *user_id* - id користувача, *order_id* - id замовлення, *status_id* - id статусу замовлення, 
 
  
  
- Ответ будет следующим:
+ Відповідь буде наступною:
 ```javascript
 {
   "status": true

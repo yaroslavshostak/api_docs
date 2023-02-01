@@ -1,6 +1,6 @@
-#### Перечень статусов заказов
+#### Перелік статусів замовлень
 
-Что бы получить список типов статусов нужно отправив GET запрос на адрес [https://developers.ria.com/ria/basket/status?api_key=YOUR_API_KEY](https://developers.ria.com/ria/basket/status?api_key=YOUR_API_KEY). Результат будет примерно следующим:
+Щоб отримати список типів статусів, потрібно надіслати GET запит на адресу [https://developers.ria.com/ria/basket/status?api_key=YOUR_API_KEY](https://developers.ria.com/ria/basket/status?api_key=YOUR_API_KEY). Результат буде приблизно таким:
 ````javascript
  curl -X GET https://developers.ria.com/ria/basket/status?api_key=YOUR_API_KEY
 ````
@@ -10,27 +10,27 @@
   "data": [
     {
       "id": 0,
-      "name": "Новые и Невыполненные"
+      "name": "Нові та Невиконані"
     },
     {
       "id": 1,
-      "name": "Выполненные"
+      "name": "Bиконані"
     },
     {
       "id": 2,
-      "name": "Невыполненные"
+      "name": "Hевиконані"
     },
     {
       "id": 6,
-      "name": "Удаленные"
+      "name": "Видалені"
     },
     {
       "id": 4,
-      "name": "Все"
+      "name": "Всі"
     },
     {
        "id": 7,
-       "name": "Обратный звонок"
+       "name": "Зворотній дзвінок"
      }
   ]
 }

@@ -1,38 +1,38 @@
-## Информация по id объявления
+## Інформація по id оголошення
 
-Чтобы обратиться к  RIA API info, Вам необходимо выполнить GET запрос такого вида:
+Щоб звернутися до API info, Вам необхідно виконати GET запит такого виду:
 
-https://developers.ria.com/dom/info/**id_объявления**?api_key=YOUR_API_KEY
+https://developers.ria.com/dom/info/**id_оголошення**?api_key=YOUR_API_KEY
 
-или  
+або  
 ````javascript
-curl -i -X GET "https://developers.ria.com/dom/info/id_объявления?api_key=YOUR_API_KEY"
+curl -i -X GET "https://developers.ria.com/dom/info/id_оголошення?api_key=YOUR_API_KEY"
 ````
-Полное описание сервиса "Информация по id объявления" описанный с помощью стандарта DeFacto swagger 2.0 [здесь](http://swagger.ria.com/ui/?api=dom/options)
+Повний опис сервісу "Інформація по id оголошення" описаний за допомогою стандарту DeFacto swagger 2.0 [тут](http://swagger.ria.com/ui/?api=dom/options)
 
-Допусти Вам нужна информация по _13825265_ id.
+Припустимо Вам потрібна інформація щодо id _13825265_ .
 
-Данный запрос будет выглядеть так:
+Цей запит матиме такий вигляд:
 
 https://developers.ria.com/dom/info/13825265?api_key=YOUR_API_KEY
 
-или  
+або  
 ````javascript
 curl -i -X GET "https://developers.ria.com/dom/info/13825265?api_key=YOUR_API_KEY
 ````
-В случае успешного выполнения запроса  результат будет со статусом **200 OK**.
+У разі успішного виконання запиту результат буде зі статусом **200 OK**.
 
-Пример успешного ответа:
+Приклад успішної відповіді:
 
 ```json
 {
-  "street_name": "Онуфрия Трутенко улица",
+  "street_name": "Онуфрія Трутенка вулиця",
   "metro_station_id": "15",
   "rooms_count": 2,
   "advert_title": 1,
   "type": "realty",
   "is_commercial": 0,
-  "state_name": "Киевская",
+  "state_name": "Київська",
   "street_id": 5581,
   "state_id": 10,
   "beautiful_url": "realty-perevireno-prodaja-kvartira-kiev-goloseevskiy-onufriya-trutenko-ulitsa-13825265.html",

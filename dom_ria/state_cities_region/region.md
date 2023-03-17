@@ -1,9 +1,9 @@
-### Районы
+### Райони
 
- Районы зависят от городов, поэтому, чтобы получить их список, необходимо послать GET запрос по адресу `https://developers.ria.com/dom/cities_districts/:city_id?api_key=YOUR_API_KEY`, где *city_id* - идентификатор города.
- Для получение информации на украинском языке нужно добавить параметр *lang_id=4*
+ Райони залежать від міст, тому, щоб отримати їхній список, необхідно надіслати GET запит за адресою `https://developers.ria.com/dom/cities_districts/:city_id?api_key=YOUR_API_KEY`, де *city_id* - ідентифікатор міста.
+ Для отримання інформації українською мовою потрібно додати параметр *lang_id=4*
   
-Например, для города Львова ([https://developers.ria.com/dom/cities_districts/5?api_key=YOUR_API_KEY](https://developers.ria.com/dom/cities_districts/5?api_key=YOUR_API_KEY&) список районов будет следующим:
+Наприклад, для міста Львова ([https://developers.ria.com/dom/cities_districts/5?api_key=YOUR_API_KEY](https://developers.ria.com/dom/cities_districts/5?api_key=YOUR_API_KEY&) список районів буде таким:
   
   ```json
   [

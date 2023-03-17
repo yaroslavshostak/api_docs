@@ -1,234 +1,249 @@
-### Области
-Получить список областей можно отправив GET запрос по адресу [https://developers.ria.com/dom/states?api_key=YOUR_API_KEY](https://developers.ria.com/dom/states?api_key=YOUR_API_KEY).
-Для получение информации на украинском языке нужно добавить параметр *lang_id=4*
+### Області
+Отримати список областей можна надіславши GET запит за адресою [https://developers.ria.com/dom/states?api_key=YOUR_API_KEY](https://developers.ria.com/dom/states?api_key=YOUR_API_KEY).
 
-Полное описание сервиса "Методы для работы с областями, городами, районами" описанный с помощью стандарта DeFacto swagger 2.0 [здесь](http://swagger.ria.com/ui/?api=dom/states_cities_and_districts)
+Повний опис сервісу "Методи для роботи з областями, містами, районами" описаний за допомогою стандарту DeFacto swagger 2.0 [тут](http://swagger.ria.com/ui/?api=dom/states_cities_and_districts)
 
-Результат будет следующим:
+Результат буде наступним:
 ```json
 [
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 1,
-    "name": "Винницкая",
-    "eng_name": "vinnica",
-    "declension": "Винницкой области",
-    "center_declension": "Винницы",
-    "region_name": "Винница"
+    "name": "Вінницька",
+    "eng_name": "vinnicya",
+    "declension": "Вінницької області",
+    "center_declension": "Вінниці",
+    "region_name": "Вінниця",
+    "translit": "vinnitskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 18,
-    "name": "Волынская",
+    "name": "Волинська",
     "eng_name": "luck",
-    "declension": "Волынской области",
-    "center_declension": "Луцка",
-    "region_name": "Луцк"
+    "declension": "Волинської області",
+    "center_declension": "Луцька",
+    "region_name": "Луцьк",
+    "translit": "volynskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 11,
-    "name": "Днепропетровская",
+    "name": "Дніпропетровська",
     "eng_name": "dnepropetrovsk",
-    "declension": "Днепропетровской области",
-    "center_declension": "Днепропетровска",
-    "region_name": "Днепропетровск"
+    "declension": "Дніпропетровської області",
+    "center_declension": "Дніпра",
+    "region_name": "Дніпро",
+    "translit": "dnepropetrovskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 13,
-    "name": "Донецкая",
+    "name": "Донецька",
     "eng_name": "doneck",
-    "declension": "Донецкой области",
-    "center_declension": "Донецка",
-    "region_name": "Донецк"
+    "declension": "Донецької області",
+    "center_declension": "Донецька",
+    "region_name": "Донецьк",
+    "translit": "donetskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 2,
-    "name": "Житомирская",
+    "name": "Житомирська",
     "eng_name": "jitomir",
-    "declension": "Житомирской области",
+    "declension": "Житомирської області",
     "center_declension": "Житомира",
-    "region_name": "Житомир"
+    "region_name": "Житомир",
+    "translit": "zhitomirskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 22,
-    "name": "Закарпатская",
+    "name": "Закарпатська",
     "eng_name": "ujgorod",
-    "declension": "Закарпатской области",
+    "declension": "Закарпатської області",
     "center_declension": "Ужгорода",
-    "region_name": "Ужгород"
+    "region_name": "Ужгород",
+    "translit": "zakarpatskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 14,
-    "name": "Запорожская",
-    "eng_name": "zaporoje",
-    "declension": "Запорожской области",
-    "center_declension": "Запорожья",
-    "region_name": "Запорожье"
+    "name": "Запорізька",
+    "eng_name": "zaporijjya",
+    "declension": "Запорізької області",
+    "center_declension": "Запоріжжя",
+    "region_name": "Запоріжжя",
+    "translit": "zaporozhskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 15,
-    "name": "Ивано-Франковская",
-    "eng_name": "ivano-frankovsk",
-    "declension": "Ивано-Франковской области",
-    "center_declension": "Ивано-Франковска",
-    "region_name": "Ивано-Франковск"
+    "name": "Івано-Франківська",
+    "eng_name": "ivano-frankivsk",
+    "declension": "Івано-Франківської області",
+    "center_declension": "Івано-Франківська",
+    "region_name": "Івано-Франківськ",
+    "translit": "ivano-frankovskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 10,
-    "name": "Киевская",
-    "eng_name": "kiev",
-    "declension": "Киевской области",
-    "center_declension": "Киева",
-    "region_name": "Киев"
+    "name": "Київська",
+    "eng_name": "kiyv",
+    "declension": "Київської області",
+    "center_declension": "Києва",
+    "region_name": "Київ",
+    "translit": "kievskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 16,
-    "name": "Кировоградская",
+    "name": "Кіровоградська",
     "eng_name": "kirovograd",
-    "declension": "Кировоградской области",
-    "center_declension": "Кировограда",
-    "region_name": "Кировоград"
+    "declension": "Кіровоградської області",
+    "center_declension": "Кропивницького",
+    "region_name": "Кропивницький",
+    "translit": "kirovogradskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 17,
-    "name": "Луганская",
+    "name": "Луганська",
     "eng_name": "lugansk",
-    "declension": "Луганской области",
-    "center_declension": "Луганска",
-    "region_name": "Луганск"
+    "declension": "Луганської області",
+    "center_declension": "Луганська",
+    "region_name": "Луганськ",
+    "translit": "luganskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 5,
-    "name": "Львовская",
-    "eng_name": "lvov",
-    "declension": "Львовской области",
+    "name": "Львівська",
+    "eng_name": "lviv",
+    "declension": "Львівської області",
     "center_declension": "Львова",
-    "region_name": "Львов"
+    "region_name": "Львів",
+    "translit": "lvovskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 19,
-    "name": "Николаевская",
-    "eng_name": "nikolaev",
-    "declension": "Николаевской области",
-    "center_declension": "Николаева",
-    "region_name": "Николаев"
+    "name": "Миколаївська",
+    "eng_name": "mikolayv",
+    "declension": "Миколаївської області",
+    "center_declension": "Миколаєва",
+    "region_name": "Миколаїв",
+    "translit": "nikolaevskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 12,
-    "name": "Одесская",
-    "eng_name": "odessa",
-    "declension": "Одесской области",
-    "center_declension": "Одессы",
-    "region_name": "Одесса"
+    "name": "Одеська",
+    "eng_name": "odesa",
+    "declension": "Одеської області",
+    "center_declension": "Одеси",
+    "region_name": "Одеса",
+    "translit": "odesskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 20,
-    "name": "Полтавская",
+    "name": "Полтавська",
     "eng_name": "poltava",
-    "declension": "Полтавской области",
-    "center_declension": "Полтавы",
-    "region_name": "Полтава"
+    "declension": "Полтавської області",
+    "center_declension": "Полтави",
+    "region_name": "Полтава",
+    "translit": "poltavskaya"
   },
   {
-    "lang_id": 2,
-    "stateID": 21,
-    "name": "Республика Крым",
-    "eng_name": "simferopol",
-    "declension": "Республики Крым",
-    "center_declension": "Симферополя",
-    "region_name": "Республика Крым"
-  },
-  {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 9,
-    "name": "Ровенская",
-    "eng_name": "rovno",
-    "declension": "Ровенской области",
-    "center_declension": "Ровно",
-    "region_name": "Ровно"
+    "name": "Рівненська",
+    "eng_name": "rivne",
+    "declension": "Рівенської області",
+    "center_declension": "Рівного",
+    "region_name": "Рівне",
+    "translit": "rovenskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 8,
-    "name": "Сумская",
-    "eng_name": "sumiy",
-    "declension": "Сумской области",
+    "name": "Сумська",
+    "eng_name": "sumi",
+    "declension": "Сумської області",
     "center_declension": "Сум",
-    "region_name": "Сумы"
+    "region_name": "Суми",
+    "translit": "sumskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 3,
-    "name": "Тернопольская",
-    "eng_name": "ternopol",
-    "declension": "Тернопольской области",
+    "name": "Тернопільська",
+    "eng_name": "ternopil",
+    "declension": "Тернопільської області",
     "center_declension": "Тернополя",
-    "region_name": "Тернополь"
+    "region_name": "Тернопіль",
+    "translit": "ternopolskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 7,
-    "name": "Харьковская",
-    "eng_name": "harkov",
-    "declension": "Харьковской области",
-    "center_declension": "Харькова",
-    "region_name": "Харьков"
+    "name": "Харківська",
+    "eng_name": "harkiv",
+    "declension": "Харківської області",
+    "center_declension": "Харкова",
+    "region_name": "Харків",
+    "translit": "kharkovskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 23,
-    "name": "Херсонская",
+    "name": "Херсонська",
     "eng_name": "herson",
-    "declension": "Херсонской области",
-    "center_declension": "Херсона",
-    "region_name": "Херсон"
+    "declension": "Херсонської області",
+    "center_declension": "Херсону",
+    "region_name": "Херсон",
+    "translit": "khersonskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 4,
-    "name": "Хмельницкая",
+    "name": "Хмельницька",
     "eng_name": "hmelnickiy",
-    "declension": "Хмельницкой области",
-    "center_declension": "Хмельницкого",
-    "region_name": "Хмельницкий"
+    "declension": "Хмельницької області",
+    "center_declension": "Хмельницького",
+    "region_name": "Хмельницький",
+    "translit": "khmelnytskaya"
   },
   {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 24,
-    "name": "Черкасская",
-    "eng_name": "cherkassiy",
-    "declension": "Черкасской области",
-    "center_declension": "Черкасс",
-    "region_name": "Черкассы"
+    "name": "Черкаська",
+    "eng_name": "cherkasi",
+    "declension": "Черкаської області",
+    "center_declension": "Черкас",
+    "region_name": "Черкаси",
+    "translit": "cherkasskaya"
   },
   {
-    "lang_id": 2,
-    "stateID": 6,
-    "name": "Черниговская",
-    "eng_name": "chernigov",
-    "declension": "Черниговской области",
-    "center_declension": "Чернигова",
-    "region_name": "Чернигов"
-  },
-  {
-    "lang_id": 2,
+    "lang_id": 4,
     "stateID": 25,
-    "name": "Черновицкая",
-    "eng_name": "chernovciy",
-    "declension": "Черновицкой области",
-    "center_declension": "Черновцов",
-    "region_name": "Черновцы"
+    "name": "Чернівецька",
+    "eng_name": "chernivci",
+    "declension": "Чернівецької області",
+    "center_declension": "Чернівців",
+    "region_name": "Чернівці",
+    "translit": "chernovytskaya"
+  },
+  {
+    "lang_id": 4,
+    "stateID": 6,
+    "name": "Чернігівська",
+    "eng_name": "chernigiv",
+    "declension": "Чернігівської області",
+    "center_declension": "Чернігова",
+    "region_name": "Чернігів",
+    "translit": "chernigovskaya"
   }
+]

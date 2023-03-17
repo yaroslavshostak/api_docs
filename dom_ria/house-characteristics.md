@@ -1,36 +1,34 @@
-## Список характеристик недвижимости
+## Список характеристик нерухомості
 
-Получить список областей можно отправив GET запрос по адресу [https://developers.ria.com/dom/options?category=id&realty_type=id&operation_type=id&api_key=YOUR_API_KEY](https://developers.ria.com/dom/options?category=id&realty_type=id&operation_type=id&api_key=YOUR_API_KEY).
-, где 
+Отримати список областей можна зробивши GET запит [https://developers.ria.com/dom/options?category=id&realty_type=id&operation_type=id&api_key=YOUR_API_KEY](https://developers.ria.com/dom/options?category=id&realty_type=id&operation_type=id&api_key=YOUR_API_KEY).
+, де 
 
-- *category* - тип объекта
+- *category* - тип об'єкта
 
-- *realty_type* - тип недвижимости
+- *realty_type* - тип нерухомості
 
-- *operation_type* - тип операции
+- *operation_type* - тип операції
 
-или
+або
 ````javascript
 curl -X GET "https://developers.ria.com/dom/options?category=id&realty_type=id&operation_type=id&api_key=YOUR_API_KEY" -H "accept: application/json"
 ````
 
-Для получение информации на украинском языке нужно добавить параметр *lang_id=4*
+Повний опис сервісу "Список характеристик нерухомості" описаний за допомогою стандарту DeFacto swagger 2.0 [тут](http://swagger.ria.com/ui/?api=dom/options)
 
-Полное описание сервиса "Список характеристик недвижимости" описанный с помощью стандарта DeFacto swagger 2.0 [здесь](http://swagger.ria.com/ui/?api=dom/options)
+**Приклад**
 
-**Пример**
+Припустимо Вам потрібно отримати список характеристик об'єкта 'Будинки', а тип нерухомості - 'Дачі', тип операції - 'Продаж'
 
-Допусти Вам нужно получить список характеристик объекта 'Дома', а тип недвижимости - 'Дачи', тип операции - 'Продажа'
-
-Данный запрос будет выглядеть так:
+Цей запит матиме такий вигляд:
 ````javascript
 https://developers.ria.com/dom/options?category=4&realty_type=7&operation_type=1&api_key=YOUR_API_KEY
 ````
-или 
+або 
 ````javascript
 curl -X GET "https://developers.ria.com/dom/options?category=4&realty_type=7&operation_type=1&api_key=YOUR_API_KEY" -H "accept: application/json"
 ````
-Результат будет следующим:
+Результат буде наступним:
 ```json
 [
   {

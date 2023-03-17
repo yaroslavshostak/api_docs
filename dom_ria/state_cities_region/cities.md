@@ -1,9 +1,9 @@
-### Города
+### Міста
   
-  Города зависят от областей, поэтому, чтобы получить их список, необходимо послать GET запрос по адресу `https://developers.ria.com/dom/cities/:stateId?api_key=YOUR_API_KEY`, где *stateId* - идентификатор области.
-  Для получение информации на украинском языке нужно добавить параметр *lang_id=4*
+  Міста залежать від областей, тому, щоб отримати їх список, необхідно надіслати GET запит за адресою `https://developers.ria.com/dom/cities/:stateId?api_key=YOUR_API_KEY`, де *stateId* - ідентифікатор області.
+  Для отримання інформації українською мовою потрібно додати параметр *lang_id=4*
   
-  Например, для Львовской области ([https://developers.ria.com/dom/cities/5?api_key=YOUR_API_KEY&lang_id=4](https://developers.ria.com/dom/cities/5?api_key=YOUR_API_KEY&lang_id=4) список городов будет следующим:
+  Наприклад, для Львівської області ([https://developers.ria.com/dom/cities/5?api_key=YOUR_API_KEY&lang_id=4](https://developers.ria.com/dom/cities/5?api_key=YOUR_API_KEY&lang_id=4) список міст буде таким:
   
   ```json
  [

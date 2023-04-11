@@ -16,7 +16,7 @@ GET https://developers.ria.com/modifications/by/generation/17/modifications?api_
 
 **Відповідь**
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
 <th style="text-align:left;">Параметр</th>
@@ -28,12 +28,12 @@ GET https://developers.ria.com/modifications/by/generation/17/modifications?api_
 <tr>
 <td style="text-align:left;">name</td>
 <td style="text-align:left;">Назва модифікації авто  </td>
-<td style="text-align:right;"><code>string</code></td>
+<td style="text-align:center;"><code>string</code></td>
 </tr>
 <tr>
 <td style="text-align:left;">value</td>
 <td style="text-align:left;">Ідентифікатор модифікації  </td>
-<td style="text-align:right;"><code>integer</code></td>
+<td style="text-align:center;"><code>integer</code></td>
 </tr>
 </tbody>
 </table></div>

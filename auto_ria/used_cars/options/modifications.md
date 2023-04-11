@@ -37,7 +37,8 @@ GET https://developers.ria.com/modifications/by/generation/17/modifications?api_
 </tr>
 </tbody>
 </table></div>
-   
+<br>  
+
 
 **Зразок відповіді**
 ```

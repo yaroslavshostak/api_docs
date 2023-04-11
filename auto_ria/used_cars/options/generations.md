@@ -14,17 +14,73 @@ GET https://developers.ria.com/generations/by/models/1653/generations?api_key=YO
 
 **Відповідь**
 
-| Параметер      | Опис                                 |Тип       | Деталі
-| :-----------------| :----------------------------------: |:--------:|:--------
-| name           | Назва моделі авто                    | string   |
-| id             | Ідентифікатор моделі авто            | integer  |
-| generations    | Покоління авто                       | array of generations data objects  |
-| generationId   | Ідентифікатор покоління авто         | integer |
-| name           | Назва покоління авто                 | string  |
-| yearFrom       | Рік випуску авто - початкове значення| integer |
-| yearTo         | Рік випуску авто - кінцеве значення  | integer  |
-| modelID        | Ідентифікатор моделі авто            | integer  |
-| eng            | Сленгова назва покоління             | string  | Латиниця
+<table style="width:85%;">
+<thead>
+<tr>
+<th style="text-align:center;">Параметр</th>
+<th style="text-align:center;">Опис</th>
+<th style="text-align:center;">Тип</th>
+<th style="text-align:center;">Деталі</th>  
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">name</td>
+<td style="text-align:center;">Назва моделі авто</td>
+<td style="text-align:center;"><code>string</code></td>
+<td style="text-align:center;"> </td>
+</tr>
+<tr>
+<td style="text-align:center;">id</td>
+<td style="text-align:center;">Ідентифікатор моделі авто</td>
+<td style="text-align:center;"><code>integer</code></td>
+<td style="text-align:center;"> </td>
+</tr>
+<tr>
+<td style="text-align:center;">generations</td>
+<td style="text-align:center;">Покоління авто</td>
+<td style="text-align:center;"><code>array of generations data objects</code></td>
+<td style="text-align:center;"> </td>
+</tr>
+<tr>
+<td style="text-align:center;">generationId</td>
+<td style="text-align:center;">Ідентифікатор покоління авто </td>
+<td style="text-align:center;"><code>integer</code></td>
+<td style="text-align:center;"> </td>
+</tr>   
+<tr>
+<td style="text-align:center;">name</td>
+<td style="text-align:center;">Назва покоління авто</td>
+<td style="text-align:center;"><code>string</code></td>
+<td style="text-align:center;"> </td>
+</tr>      
+<tr>
+<td style="text-align:center;">yearFrom</td>
+<td style="text-align:center;">Рік випуску авто - початкове значення</td>
+<td style="text-align:center;"><code>integer</code></td>
+<td style="text-align:center;"> </td>
+</tr> 
+<tr>
+<td style="text-align:center;">yearTo</td>
+<td style="text-align:center;">Рік випуску авто - кінцеве значення</td>
+<td style="text-align:center;"><code>integer</code></td>
+<td style="text-align:center;"> </td>
+</tr>
+<tr>
+<td style="text-align:center;">modelID</td>
+<td style="text-align:center;">Ідентифікатор моделі авто</td>
+<td style="text-align:center;"><code>integer</code></td>
+<td style="text-align:center;"> </td>
+</tr>
+<tr>
+<td style="text-align:center;">eng</td>
+<td style="text-align:center;">Сленгова назва покоління</td>
+<td style="text-align:center;"><code>string</code></td>
+<td style="text-align:center;">Латиниця</td>
+</tr>
+</tbody>
+</table></div>
+<br>  
 
 
 **Зразок відповіді**

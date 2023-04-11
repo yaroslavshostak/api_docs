@@ -16,23 +16,23 @@ GET https://developers.ria.com/modifications/by/generation/17/modifications?api_
 
 **Відповідь**
 
-<table style="width:100%;">
+<table style="width:70%;">
 <thead>
 <tr>
-<th style="text-align:left;">Параметр</th>
+<th style="text-align:center;">Параметр</th>
 <th style="text-align:center;">Опис</th>
 <th style="text-align:center;">Тип</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;">name</td>
-<td style="text-align:left;">Назва модифікації авто  </td>
+<td style="text-align:center;">name</td>
+<td style="text-align:center;">Назва модифікації авто  </td>
 <td style="text-align:center;"><code>string</code></td>
 </tr>
 <tr>
-<td style="text-align:left;">value</td>
-<td style="text-align:left;">Ідентифікатор модифікації  </td>
+<td style="text-align:center;">value</td>
+<td style="text-align:center;">Ідентифікатор модифікації  </td>
 <td style="text-align:center;"><code>integer</code></td>
 </tr>
 </tbody>

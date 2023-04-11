@@ -8,6 +8,8 @@
    body-types
    marks
    models
+   generations
+   modifications
    states
    cities
    driverTypes

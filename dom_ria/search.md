@@ -26,14 +26,6 @@ https://developers.ria.com/dom/search?api_key=YOUR_API_KEY&PARAMETERS
 }
 ```
 
-Повний опис сервісу "Пошук оголошень" описаний за допомогою стандарту DeFacto swagger 2.0
-* [Квартир](http://swagger.ria.com/ui/?api=dom/apartments)
-* [Будинків](http://swagger.ria.com/ui/?api=dom/house#/)
-* [Комерційної нерухомості](http://swagger.ria.com/ui/?api=dom/commercial)
-* [Офісів](http://swagger.ria.com/ui/?api=dom/offices)
-* [Земельних ділянок](http://swagger.ria.com/ui/?api=dom/land)
-* [Гаражів](http://swagger.ria.com/ui/?api=dom/garages)
-
 
 **Приклад**
 

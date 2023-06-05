@@ -1,6 +1,6 @@
 ## Пошук оголошень
 
-Щоб скористатись DOM.RIA API search, Вам необхідно виконати GET запит такого виду:
+Щоб скористатись DIM.RIA API search, Вам необхідно виконати GET запит такого виду:
 
 https://developers.ria.com/dom/search?api_key=YOUR_API_KEY&PARAMETERS
 

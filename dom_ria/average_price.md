@@ -1,6 +1,6 @@
 # [](#Подсчёт-средней-цены)**Підрахунок середньої ціни**
 
-**“Підрахунок середньої ціни”** — сервіс, заснований на актуальних статистичних даних **DOM.RIA**
+**“Підрахунок середньої ціни”** — сервіс, заснований на актуальних статистичних даних **DIM.RIA**
 
 Тепер ви можете:
 
@@ -14,7 +14,6 @@
 
     Ознайомтеся з технічною документацією, щоб отримати доступ і експортувати необхідну інформацію в програму вашої компанії.
 
-З повним описом сервісу "Підрахунок середньої ціни" можна ознайомитися за допомогою стандарту DeFacto **swagger 2.0** [тут](http://swagger.ria.com/ui/?api=dom/dom_average_price)
 
 У разі успішного підрахунку середньої ціни за вказаними параметрами результат буде зі статусом **200 OK**.
 
@@ -124,13 +123,12 @@
 
 Параметри **category**, **sub_category**, **operation** є обов'язковим для заповнення.
 
-Детальну інформацію про застосування цих параметрів можна отримати за допомогою стандарту DeFacto **swagger 2.0** [тут](http://swagger.ria.com/ui/?api=dom/dom_average_price)
 
 Приклад успішного запиту:
 ````javascript
   https://developers.ria.com/dom/average_price?category=1&sub_category=2&operation=1&state_id=1&city_id=1&date_from=2017-06&date_to=2017-07&api_key=YOUR API KEY
 ````
-или
+або
 ````javascript
     curl -X GET "https://developers.ria.com/dom/average_price?category=1&sub_category=2&operation=1&state_id=1&city_id=1&date_from=2017-06&date_to=2017-07&api_key=YOUR API KEY" -H "accept: application/json"
 ````

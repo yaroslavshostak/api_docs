@@ -8,7 +8,6 @@ https://developers.ria.com/dom/info/**id_оголошення**?api_key=YOUR_API
 ````javascript
 curl -i -X GET "https://developers.ria.com/dom/info/id_оголошення?api_key=YOUR_API_KEY"
 ````
-Повний опис сервісу "Інформація по id оголошення" описаний за допомогою стандарту DeFacto swagger 2.0 [тут](http://swagger.ria.com/ui/?api=dom/options)
 
 Припустимо Вам потрібна інформація щодо id _13825265_ .
 

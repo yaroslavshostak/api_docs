@@ -14,7 +14,6 @@
 curl -X GET "https://developers.ria.com/dom/options?category=id&realty_type=id&operation_type=id&api_key=YOUR_API_KEY" -H "accept: application/json"
 ````
 
-Повний опис сервісу "Список характеристик нерухомості" описаний за допомогою стандарту DeFacto swagger 2.0 [тут](http://swagger.ria.com/ui/?api=dom/options)
 
 **Приклад**
 

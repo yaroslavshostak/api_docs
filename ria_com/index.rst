@@ -8,8 +8,6 @@ RIA.com
 
 
 
-Усі методи та дані описані за допомогою стандарту DeFacto swagger 2.0  `тут`_
-
 
 .. toctree::
    :maxdepth: 1

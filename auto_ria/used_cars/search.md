@@ -13,7 +13,7 @@ https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
 
  * **API_KEY** — ключ доступу. Для отримання ключа доступу потрібно зареєструватися на платформі developers.ria.com 
 
- * **PARAMETERS** — вхідні параметри, послідовність пар name=value, розділених амперсандом. Список параметрів вказано [тут](#user-content-Список-параметров)
+ * **PARAMETERS** — вхідні параметри, послідовність пар name=value, розділених амперсандом. Список параметрів вказано [тут](https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.html)
  
 
 У відповідь на такий запит Ви отримаєте відповідь у форматі JSON:

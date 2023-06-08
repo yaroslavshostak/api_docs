@@ -15,6 +15,7 @@ https://developers.ria.com/auto/search?api_key=YOUR_API_KEY&PARAMETERS
 
  * **PARAMETERS** — вхідні параметри, послідовність пар name=value, розділених амперсандом. Список параметрів вказано [тут](https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.html)
  
+Для вилучення з відповіді видалених оголошень вказуйте параметр status_id=0
 
 У відповідь на такий запит Ви отримаєте відповідь у форматі JSON:
 

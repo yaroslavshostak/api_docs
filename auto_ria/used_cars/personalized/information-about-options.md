@@ -66,6 +66,5 @@ curl -X GET "https://developers.ria.com/auto/used/autos/20438832/options?user_id
 ]
 ```
 
-Для розшифровки отриманих параметрів можна використовувати сервіс [Опції](https://github.com/ria-com/auto-ria-rest-api/blob/master/AUTO_RIA_API/README.md#user-content-%D0%9E%D0%BF%D1%86%D0%B8%D0%B8)
+Для розшифровки отриманих параметрів можна використовувати сервіс [Опції](https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/options.html?highlight=%D0%BE%D0%BF%D1%86%D1%96%D1%97#section-1)
 
- Повний опис сервісу "Отримання інформації про опції оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

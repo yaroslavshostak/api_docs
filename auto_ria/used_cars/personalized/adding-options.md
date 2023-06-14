@@ -18,4 +18,4 @@ curl -X POST "https://developers.ria.com/auto/used/autos/20438832/options?user_i
 
 "success":true}
 ````
- Повний опис сервісу "Додавання опцій" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+

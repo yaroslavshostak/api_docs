@@ -27,4 +27,4 @@ curl -X GET "https://developers.ria.com/auto/used/autos/20268839/statistic?user_
 - *views* - Кількість переглядів оголошення
 - *clicks* - Кількість відкриттів номера телефону
 
- Повний опис сервісу "Статистика оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+ 

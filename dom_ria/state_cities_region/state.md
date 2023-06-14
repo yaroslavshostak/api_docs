@@ -1,7 +1,6 @@
 ### Області
 Отримати список областей можна надіславши GET запит за адресою [https://developers.ria.com/dom/states?api_key=YOUR_API_KEY](https://developers.ria.com/dom/states?api_key=YOUR_API_KEY).
 
-Повний опис сервісу "Методи для роботи з областями, містами, районами" описаний за допомогою стандарту DeFacto swagger 2.0 [тут](http://swagger.ria.com/ui/?api=dom/states_cities_and_districts)
 
 Результат буде наступним:
 ```json

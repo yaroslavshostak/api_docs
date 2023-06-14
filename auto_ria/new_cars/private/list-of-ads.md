@@ -1,15 +1,15 @@
-## Список всех объявлений
+## Список усіх оголошень
 
-Чтобы получить список объявлений, Вам необходимо выполнить GET запрос такого вида:
+Щоб отримати список оголошень, Вам необхідно виконати GET запит такого вигляду:
 ````rest
 https://developers.ria.com/auto/new/autos?user_id=Ваш id&api_key=YOUR_API_KEY
 ````
-, где *user_id* - Ваш ID в системе RIA.com, *api_key* - Ваш ключ.
+, де *user_id* - Ваш ID в системі RIA.com, *api_key* - Ваш ключ.
 
-**Пример запроса**
+**Приклад запиту**
 `https://developers.ria.com/auto/new/autos?user_id=4784009&api_key=YOUR_API_KEY`
 
-**Пример успешного ответа:**
+**Приклад успішної відповіді:**
 
 ```javascript
 {
@@ -71,8 +71,8 @@ https://developers.ria.com/auto/new/autos?user_id=Ваш id&api_key=YOUR_API_KEY
   ]
 }
 ```
-Расшифровка параметров
+Розшифрування параметрів
 
-- *active* - Активные объявления
+- *active* - Активні оголошення
 
-- *archive* - Объявления в архиве
+- *archive* - Оголошення в архіві

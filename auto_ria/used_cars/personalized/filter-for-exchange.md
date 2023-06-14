@@ -1,26 +1,26 @@
-### Получение фильтров на обмен по вашему обьявлению
+### Отримання фільтрів на обмін за вашим оголошенням
 
-Для получения опций в объявление, Вам необходимо выполнить GET запрос такого вида:
+Для отримання опцій в оголошенні, Вам необхідно виконати GET запит такого типу:
 
-https://developers.ria.com/auto/used/autos/advertisementId/exchangeFilters?user_id=Ваш ID&api_key=YOUR_API_KEY
+https://developers.ria.com/auto/used/autos/advertisementId/exchangeFilters?user_id=ВашID&api_key=YOUR_API_KEY
 
-или 
+або 
 ````javascript
 curl -X GET "https://developers.ria.com/auto/used/autos/advertisementId/exchangeFilters?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json"
 `````
-, где *user_id* - Ваш ID в системе RIA.com, *advertisementId* - ID нужного Вам объявления, *api_key* - Ваш ключ.
+, де *user_id* - Ваш ID в системі RIA.com, *advertisementId* - ID потрібного Вам оголошення, *api_key* - Ваш ключ.
 
-**Пример запроса**
+**Приклад запиту**
 ````javascript
 curl -X GET "https://developers.ria.com/auto/used/autos/20438832/exchangeFilters?user_id=7069830&api_key=YOUR_API_KEY" -H "accept: application/json"
 `````
-**Пример успешного ответа:**
+**Приклад успішної відповіді:**
 
 ````json
 
 [
   {
-    "id": 2930510,   // Id добавленного фильтра
+    "id": 2930510,   // Id доданого фільтра
     "brand": {
       "id": 6
     },
@@ -40,5 +40,5 @@ curl -X GET "https://developers.ria.com/auto/used/autos/20438832/exchangeFilters
   }
 ]
 ````
- Полное описание сервиса "Получение фильтров на обмен по вашему обьявлению" описаный с помощью стандарта **DeFacto swagger 2.0** [здесь](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+
 

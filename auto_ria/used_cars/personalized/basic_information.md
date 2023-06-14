@@ -139,4 +139,3 @@ curl -X GET "https://developers.ria.com/auto/used/autos/20445742?user_id=7069830
   }
 }
 ```
- Повний опис сервісу "Отримання основної інформації про оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

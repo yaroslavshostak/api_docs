@@ -1,8 +1,8 @@
 
-### Структура параметров
+### Структура параметрів
 
 
-**Параметры которые должны обязательно присутствовать в запросе**
+**Параметри, які повинні обов'язково бути присутніми в запиті**
 
 
 <table>
@@ -11,13 +11,13 @@
 
 <tr>
 
-<th align="left">Имя поля</th>
+<th align="left">Ім'я поля</th>
 
 <th align="left">Тип</th>
 
-<th align="left">Описание</th>
+<th align="left">Опис</th>
 
-<th align="left">Пример</th>
+<th align="left">Приклад</th>
 
 </tr>
 
@@ -31,7 +31,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Год выпуска вашего авто</td>
+<td align="left">Рік випуску вашого авто</td>
 
 <td align="left">2016</td>
 
@@ -43,7 +43,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Цена, за которою вы желаете продать ваше авто</td>
+<td align="left">Ціна, по якій ви бажаєте продати ваше авто</td>
 
 <td align="left"></td>
 
@@ -55,7 +55,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Значение</td>
+<td align="left">Значення</td>
 
 <td align="left">80000</td>
 
@@ -67,7 +67,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Валюта в которой вы продаете ваш автомобиль</td>
+<td align="left">Валюта в якій ви продаєте ваш автомобіль</td>
 
 <td align="left"></td>
 
@@ -79,7 +79,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID валюты в которой вы продаете ваш автомобиль</td>
+<td align="left">ID валюти в якій ви продаєте ваш автомобіль</td>
 
 <td align="left">1</td>
 
@@ -103,7 +103,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Тип транспорта</td>
+<td align="left">Тип транспорту</td>
 
 <td align="left"></td>
 
@@ -127,7 +127,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID типа транспорта</td>
+<td align="left">ID типу транспорту</td>
 
 <td align="left">1</td>
 
@@ -151,7 +151,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Марка автомобиля</td>
+<td align="left">Марка автомобіля</td>
 
 <td align="left"></td>
 
@@ -163,7 +163,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID марки автомобиля</td>
+<td align="left">ID марки автомобіля</td>
 
 <td align="left">5</td>
 
@@ -187,7 +187,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Модель автомобиля</td>
+<td align="left">Модель автомобіля</td>
 
 <td align="left"></td>
 
@@ -199,7 +199,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID модели автомобиля</td>
+<td align="left">ID моделі автомобіля</td>
 
 <td align="left">963</td>
 
@@ -223,7 +223,7 @@
 
 <td align="left">string</td>
 
-<td align="left">Название модификации вашего автомобиля</td>
+<td align="left">Назва модифікації вашого автомобіля</td>
 
 <td align="left">V12 AMG B-turbo</td>
 
@@ -259,7 +259,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID типа кузова</td>
+<td align="left">ID типу кузова</td>
 
 <td align="left">6</td>
 
@@ -283,7 +283,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Пробег в тыс.км.</td>
+<td align="left">Пробіг у тис.км.</td>
 
 <td align="left">32</td>
 
@@ -307,7 +307,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Область в которой вы продаете автомобиль</td>
+<td align="left">Область у якій ви продаєте автомобіль</td>
 
 <td align="left"></td>
 
@@ -319,7 +319,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID области в которой вы продаете автомобиль</td>
+<td align="left">ID області в якій ви продаєте автомобіль</td>
 
 <td align="left">10</td>
 
@@ -343,7 +343,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Город в котором вы продаете автомобиль</td>
+<td align="left">Місто в якому ви продаєте автомобіль</td>
 
 <td align="left"></td>
 
@@ -355,7 +355,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID города в котором вы продаете автомобиль</td>
+<td align="left">ID міста в якому ви продаєте автомобіль</td>
 
 <td align="left">10</td>
 
@@ -365,7 +365,7 @@
 
 </table>
 
-**Дополнительные параметры**
+**Додаткові параметри**
 
 <table>
 
@@ -373,13 +373,13 @@
 
 <tr>
 
-<th align="left">Имя поля</th>
+<th align="left">Ім'я поля</th>
 
 <th align="left">Тип</th>
 
-<th align="left">Описание</th>
+<th align="left">Опис</th>
 
-<th align="left">Пример</th>
+<th align="left">Приклад</th>
 
 </tr>
 
@@ -393,7 +393,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Ваше авто после ДТП</td>
+<td align="left">Ваше авто після ДТП</td>
 
 <td align="left">false</td>
 
@@ -405,7 +405,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Авто растаможено</td>
+<td align="left">Авто розмитнене</td>
 
 <td align="left">false</td>
 
@@ -417,7 +417,7 @@
 
 <td align="left">string</td>
 
-<td align="left">ВИН код вашего автомобиля</td>
+<td align="left">VIN код вашого автомобіля</td>
 
 <td align="left">JKBVNCB164A6XXXX</td>
 
@@ -465,7 +465,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Тип привода</td>
+<td align="left">Тип приводу</td>
 
 <td align="left"></td>
 
@@ -477,7 +477,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID типа привода</td>
+<td align="left">ID типу приводу</td>
 
 <td align="left">2</td>
 
@@ -501,7 +501,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Тип топлива</td>
+<td align="left">Тип палива</td>
 
 <td align="left"></td>
 
@@ -513,7 +513,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID типа топлива, которое подходит вашему автомобилю</td>
+<td align="left">ID типу палива, яке підходить вашому автомобілю</td>
 
 <td align="left">2</td>
 
@@ -537,7 +537,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Расход топлива</td>
+<td align="left">Витрата палива</td>
 
 <td align="left"></td>
 
@@ -549,7 +549,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Расход топлива по трасе</td>
+<td align="left">Витрата палива по трасі</td>
 
 <td align="left">6</td>
 
@@ -561,7 +561,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Расход топлива по городу</td>
+<td align="left">Витрата палива по місту</td>
 
 <td align="left">10</td>
 
@@ -573,7 +573,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Расход топлива в смешеном режиме</td>
+<td align="left">Витрата палива в змішаному режимі</td>
 
 <td align="left">8</td>
 
@@ -597,7 +597,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Обьем двигателя</td>
+<td align="left">Об'єм двигуна</td>
 
 <td align="left"></td>
 
@@ -621,7 +621,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Обьем двигателя в литрах</td>
+<td align="left">Об'єм двигуна в літрах</td>
 
 <td align="left">3.5</td>
 
@@ -645,7 +645,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Мощность вашего авто</td>
+<td align="left">Потужність вашого авто</td>
 
 <td align="left"></td>
 
@@ -657,7 +657,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Мощность вашего авто в лошадиных силах</td>
+<td align="left">Потужність вашого авто в кінських силах</td>
 
 <td align="left">585</td>
 
@@ -669,7 +669,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Мощность вашего авто в киловатах</td>
+<td align="left">Потужність вашого авто в кіловатах</td>
 
 <td align="left">430</td>
 
@@ -693,7 +693,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Цвет</td>
+<td align="left">Колір</td>
 
 <td align="left"></td>
 
@@ -705,7 +705,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID цвета вашего автомобиля</td>
+<td align="left">ID кольору вашого автомобіля</td>
 
 <td align="left">10</td>
 
@@ -717,7 +717,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Цвет металик</td>
+<td align="left">Колір металік</td>
 
 <td align="left">true</td>
 
@@ -741,7 +741,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Добавить торг</td>
+<td align="left">Додати торг</td>
 
 <td align="left"></td>
 
@@ -753,7 +753,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Разрешение добавлять торги к вашему обьявлению</td>
+<td align="left">Дозвіл додавати торги до вашого оголошення</td>
 
 <td align="left">true</td>
 
@@ -765,7 +765,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Комментарий</td>
+<td align="left">Коментар</td>
 
 <td align="left"></td>
 
@@ -777,7 +777,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Разрешения комментировать ваше обьявление</td>
+<td align="left">Дозволи коментувати ваше оголошення</td>
 
 <td align="left">true</td>
 
@@ -789,7 +789,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Нужно ли ваше подтверждение при добавлении комментария</td>
+<td align="left">Чи потрібне ваше підтвердження під час додавання коментаря</td>
 
 <td align="left">false</td>
 
@@ -813,7 +813,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Обмен</td>
+<td align="left">Обмін</td>
 
 <td align="left"></td>
 
@@ -837,7 +837,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Варианты доплаты при добалении обмена к вашему обьявлению</td>
+<td align="left">Варіанти доплати при додаванні обміну до вашого оголошення</td>
 
 <td align="left">2</td>
 
@@ -861,7 +861,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Тип обмена</td>
+<td align="left">Тип обміну</td>
 
 <td align="left"></td>
 
@@ -873,7 +873,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID типа обмена (на автомобиль,на недвижемость и т.д.)</td>
+<td align="left">ID типу обміну (на автомобіль, на нерухомість тощо)</td>
 
 <td align="left">1</td>
 
@@ -897,7 +897,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Видео</td>
+<td align="left">Відео</td>
 
 <td align="left"></td>
 
@@ -909,7 +909,7 @@
 
 <td align="left">string</td>
 
-<td align="left">Ключ к видео на ютубе</td>
+<td align="left">Ключ до відео на YouTube</td>
 
 <td align="left">lLEiT9PeHSg</td>
 
@@ -933,7 +933,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Описание</td>
+<td align="left">Опис</td>
 
 <td align="left"></td>
 
@@ -945,7 +945,7 @@
 
 <td align="left">string</td>
 
-<td align="left">Описание на русском языке</td>
+<td align="left">Опис російською мовою</td>
 
 <td align="left">"Авто в идеальном состоянии, вложений не требует"</td>
 
@@ -957,7 +957,7 @@
 
 <td align="left">string</td>
 
-<td align="left">Описание на украинском языке</td>
+<td align="left">Опис українською мовою</td>
 
 <td align="left">"Авто в ідеальному стані, вкладень не потребує"</td>
 
@@ -981,7 +981,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Количество дверей</td>
+<td align="left">Кількість дверей</td>
 
 <td align="left">2</td>
 
@@ -1005,7 +1005,7 @@
 
 <td align="left">number</td>
 
-<td align="left">Количество сидячих мест</td>
+<td align="left">Кількість сидячих місць</td>
 
 <td align="left">2</td>
 
@@ -1029,7 +1029,7 @@
 
 <td align="left">object</td>
 
-<td align="left">Странна с которой был пригнан автомобиль</td>
+<td align="left">Країна з якої був пригнаний автомобіль</td>
 
 <td align="left"></td>
 
@@ -1053,7 +1053,7 @@
 
 <td align="left">number</td>
 
-<td align="left">ID страны</td>
+<td align="left">ID країни</td>
 
 <td align="left">0</td>
 
@@ -1077,7 +1077,7 @@
 
 <td align="left">boolean</td>
 
-<td align="left">Авто на  запчасти</td>
+<td align="left">Авто на запчастини</td>
 
 <td align="left">false</td>
 

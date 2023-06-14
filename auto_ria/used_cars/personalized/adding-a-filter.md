@@ -18,4 +18,3 @@ curl -X POST "https://developers.ria.com/auto/used/autos/20438832/exchangeFilter
 {"message":"Ok","errors":[],"success":true}
 ````
 
-Повний опис сервісу "Додавання нового фільтра на обмін" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

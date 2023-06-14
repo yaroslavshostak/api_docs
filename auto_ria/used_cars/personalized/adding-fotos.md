@@ -13,7 +13,6 @@ curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/photos/
 
 Фотографії будуть додані не за черговістю, а у випадковому порядку.
 
-Повний опис сервісу "Додавання фотографій до оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)
 
 **Приклад запиту**
 ````javascript

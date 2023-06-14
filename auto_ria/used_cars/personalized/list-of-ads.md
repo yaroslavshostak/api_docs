@@ -46,4 +46,3 @@ curl -X GET "https://developers.ria.com/auto/used/autos/ids?user_id=7069830&api_
  - *awaitingPayment* - Оголошення очікують оплати
  - *archive* - Оголошення в архіві
 
-Повний опис сервісу "Список оголошень користувача" описано за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)

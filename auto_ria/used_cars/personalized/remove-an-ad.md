@@ -16,4 +16,4 @@ curl -X DELETE "https://developers.ria.com/auto/used/autos/advertisementId?user_
 ````javascript
 curl -X DELETE "https://developers.ria.com/auto/used/autos/20460133?user_id=7069830&reason_id=7&api_key=YOUR_API_KEY" -H "accept: application/json"`
 `````
- Повний опис сервісу "Видалення оголошення" описаний за допомогою стандарту **DeFacto swagger 2.0** [тут](http://swagger.ria.com/ui/?api=auto/advertisements#/)
+

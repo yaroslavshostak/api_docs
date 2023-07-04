@@ -187,3 +187,6 @@ curl -i -X GET "https://developers.ria.com/dom/info/13825265?api_key=YOUR_API_KE
   "with_panoramas": 1
 }
 ```
+
+Для отримання фото вам необхідно додати префікс 'xl' перед .jpg
+Наприклад: https://cdn.riastatic.com/photos/dom/photo/20703/2070397/207039746/207039746xl.jpg

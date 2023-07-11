@@ -2,7 +2,7 @@
 
 Для додавання фотографій до оголошення, Вам необхідно виконати POST запит такого типу:
 ````javascript
-curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/photos/upload?user_id=Ваш ID&api_key=YOUR API KEY" -H "accept: application/json" -H "content-type: application/json" -d "{ \"main\": \"головне фото\", \"links\": [ \"фотографії" ]}"
+curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/photos/upload?user_id=Ваш ID&api_key=YOUR API KEY" -H "accept: application/json" -H "content-type: application/json" -d '{ "main": "головне фото", "links": [ "фотографії" ]}'
 ````
 Розшифрування параметрів:
 
@@ -16,7 +16,7 @@ curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/photos/
 
 **Приклад запиту**
 ````javascript
-curl -X POST "https://developers.ria.com/auto/used/autos/21739303/photos/upload?user_id=7069830&api_key=bVjbA3izvnu04o7Pliw41bXAlY3mIj03CfQpeMNC" -H "accept: application/json" -H "content-type: application/json" -d "{ \"main\": \"https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471725fx.jpg\", \"links\": [ \"https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471725fx.jpg\", \"https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471726fx.jpg\" ]}"
+curl -X POST "https://developers.ria.com/auto/used/autos/21739303/photos/upload?user_id=7069830&api_key=bVjbA3izvnu04o7Pliw41bXAlY3mIj03CfQpeMNC" -H "accept: application/json" -H "content-type: application/json" -d '{ "main": "https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471725fx.jpg", "links": [ "https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471725fx.jpg", "https://cdn0.riastatic.com/photosnew/auto/photo/bmw_320__213471726fx.jpg" ]}'
 `````
 **Приклад успішної відповіді**
 ````javascript

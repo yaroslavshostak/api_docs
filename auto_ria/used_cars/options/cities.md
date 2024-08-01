@@ -1,5 +1,7 @@
 ### Міста
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Міста залежать від областей - тому, щоб отримати їх список, необхідно надіслати GET запит за адресою `https://developers.ria.com/auto/states/:stateId/cities?api_key=YOUR_API_KEY`, де *stateId* - ідентифікатор області, *api_key*- Ваш ключ.
 
 Наприклад, для Вінницької області ([https://developers.ria.com/auto/states/1/cities?api_key=YOUR_API_KEY](https://developers.ria.com/auto/states/1/cities?api_key=YOUR_API_KEY)) список міст буде таким:

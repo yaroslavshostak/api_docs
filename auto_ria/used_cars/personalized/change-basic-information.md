@@ -1,5 +1,7 @@
 ### Зміна основної інформації оголошення
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для зміни основної інформації оголошення, Вам необхідно відправити **PUT** запит такого типу:
 ````javascript
 curl -X PUT "https://developers.ria.com/auto/used/autos/advertisementId?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json"  -d "{ \  \  }

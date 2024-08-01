@@ -1,5 +1,7 @@
 ### Кольори
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Отримати список усіх кольорів можна якщо надіслати GET запит за адресою [https://developers.ria.com/auto/colors?api_key=YOUR_API_KEY](https://developers.ria.com/auto/colors?api_key=YOUR_API_KEY). Результат буде наступним:
 ```javascript
 [

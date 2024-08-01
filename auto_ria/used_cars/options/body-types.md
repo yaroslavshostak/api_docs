@@ -1,5 +1,7 @@
 ### Типи кузова
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Типи кузова залежать від типів транспорту. Тому для того, щоб отримати список типів кузова, необхідно надіслати GET запит на адресу `https://developers.ria.com/auto/categories/:categoryId/bodystyles?api_key=YOUR_API_KEY`, де *categoryId* - ідентифікатор типу транспорту, *api_key*- Ваш ключ.
 
 Наприклад, для легкових автомобілів ([https://developers.ria.com/auto/categories/1/bodystyles?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/1/bodystyles?api_key=YOUR_API_KEY)),  результат буде наступним:

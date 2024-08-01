@@ -1,5 +1,7 @@
 ### Марки
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Марки залежать від типів транспорту. Тому для того, щоб отримати список марок необхідно надіслати GET запит за адресою `https://developers.ria.com/auto/categories/:categoryId/marks?api_key=YOUR_API_KEY`, де *categoryId* -  ідентифікатор типу транспорту, *api_key*- Ваш ключ.
 
 Наприклад, для легкових автомобілів ([https://developers.ria.com/auto/categories/1/marks?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/1/marks?api_key=YOUR_API_KEY)), результат буде таким:

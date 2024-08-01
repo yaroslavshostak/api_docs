@@ -1,5 +1,7 @@
 ### Додавання опцій
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для додавання опцій в оголошення, Вам необхідно виконати PUT запит такого виду:
 ````javascript
 curl -X POST "https://developers.ria.com/auto/used/autos/advertisementId/options?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json" -d "[ { \"id\": ID опції }]"

@@ -1,5 +1,8 @@
 ### Отримання інформації про опції оголошення
 
+
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб отримати інформацію про опції оголошення, Вам необхідно виконати GET запит такого формату:
 
 https://developers.ria.com/auto/used/autos/advertisementId/options?user_id=Ваш ID&api_key=YOUR_API_KEY

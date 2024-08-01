@@ -1,5 +1,7 @@
 ### Додавання фото до оголошення
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для додавання фотографій до оголошення, Вам необхідно виконати POST запит такого типу:
 ````javascript
 curl -X POST "https://developers.ria.com/auto/used/autos/ID_оголошення/photos/upload?user_id=ВАШ_ID&api_key=ВАШ_API_КЛЮЧ" -H "accept: application/json" -H "content-type: application/json" -H 'Cookie: PSP_ID=ВАШ_PSP_ID' -d '{ "main": "головне фото", "links": [ "фотографії" ]}'

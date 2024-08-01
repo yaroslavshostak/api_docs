@@ -1,5 +1,7 @@
 ### Видалення існуючого фільтра на обмін
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для видалення існуючого фільтра на обмін, Вам необхідно виконати DELETE запит такого виду:
 ````javascript
 curl -X DELETE "https://developers.ria.com/auto/used/autos/advertisementId/exchangeFilter/filterId?user_id=Ваш ID&api_key=c" -H "accept: application/json"`

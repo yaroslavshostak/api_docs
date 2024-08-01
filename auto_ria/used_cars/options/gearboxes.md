@@ -1,5 +1,7 @@
 ### Коробки передач
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Коробки передач залежать від типу транспорту - тому, щоб отримати їх список необхідно надіслати GET запит за адресою `https://developers.ria.com/auto/categories/:categoryId/gearboxes?api_key=YOUR_API_KEY`, де *categoryId* - ідентифікатор типу транспорту, *api_key*- Ваш ключ .
 
 Наприклад, список коробок передач для мотоциклів ([https://developers.ria.com/auto/categories/2/gearboxes?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/2/gearboxes?api_key=YOUR_API_KEY)) буде виглядати наступним чином:

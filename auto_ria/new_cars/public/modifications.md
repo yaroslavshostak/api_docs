@@ -1,4 +1,6 @@
 ## Модифікації (бази) за типом кузова в поколінні
+
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
     
 Модифікація (бази) залежить від типу кузова в поколінні. Отримати цей список можна надіславши GET запит за адресою `https://developers.ria.com/auto/new/generation_bodystyles_bases?generation_bodystyle_id=id&api_key=YOUR_API_KEY` , де *generation_bodystyle_id* - id типів кузова, *api_key*- Ваш ключ.
 

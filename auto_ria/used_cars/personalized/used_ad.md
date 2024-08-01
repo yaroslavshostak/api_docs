@@ -1,5 +1,7 @@
 ### Додавання оголошення
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб додати оголошення, Вам необхідно виконати POST запит такого типу:
 ````javascript
 curl -X POST "https://developers.ria.com/auto/used/autos/?user_id=Ваш ID&api_key=YOUR_API_KEY" -H "accept: application/json" -H "content-type: application/json" -d "{ \  \ }"`

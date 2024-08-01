@@ -1,5 +1,7 @@
 ## Список усіх оголошень
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб отримати список оголошень, Вам необхідно виконати GET запит такого вигляду:
 ````rest
 https://developers.ria.com/auto/new/autos?user_id=Ваш id&api_key=YOUR_API_KEY

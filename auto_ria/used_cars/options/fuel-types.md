@@ -1,5 +1,7 @@
 ### Типи палива
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Типи палива можна отримати надіславши GET запит за адресою [https://developers.ria.com/auto/type?api_key=YOUR_API_KEY](https://developers.ria.com/auto/type?api_key=YOUR_API_KEY). Відповідь буде виглядати наступним чином:
 ```javascript
 [

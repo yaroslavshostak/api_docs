@@ -1,5 +1,7 @@
 ### Області
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Отримати список областей можна надіславши GET запит за адресою [https://developers.ria.com/auto/states?api_key=YOUR_API_KEY](https://developers.ria.com/auto//states?api_key=YOUR_API_KEY).
 
 Результат буде таким:

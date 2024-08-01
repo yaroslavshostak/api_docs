@@ -1,5 +1,7 @@
 #### Перелік замовлень 
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб отримати список замовлень, потрібно надіслати GET запит на адресу [https://developers.ria.com/ria/basket/orders/?user_id=*&api_key=YOUR_API_KEY](https://developers.ria.com/ria/basket/orders/?user_id=*&api_key=YOUR_API_KEY). Де **user_id** - потрібно вказати Ваш id.
 
 ````javascript

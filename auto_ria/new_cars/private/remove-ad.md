@@ -1,5 +1,7 @@
 ## Видалення оголошення
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для видалення оголошення, Вам необхідно відправити **DELETE** запит такого вигляду:
 
 `curl -X DELETE "https://developers.ria.com/auto/new/autos?user_id=id&auto_id=id&api_key=YOUR_API_KEY"`

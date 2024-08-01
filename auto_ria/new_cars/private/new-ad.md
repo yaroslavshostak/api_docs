@@ -1,5 +1,7 @@
 ## Створення нового оголошення 
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для створення нового оголошення, вам необхідно виконати **POST** запит такого виду:
  
 `curl -X POST "https://developers.ria.com/auto/new/autos?user_id=4784009&marka_id=id&model_id=id&`

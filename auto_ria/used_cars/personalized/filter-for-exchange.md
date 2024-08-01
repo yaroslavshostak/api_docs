@@ -1,5 +1,7 @@
 ### Отримання фільтрів на обмін за вашим оголошенням
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Для отримання опцій в оголошенні, Вам необхідно виконати GET запит такого типу:
 
 https://developers.ria.com/auto/used/autos/advertisementId/exchangeFilters?user_id=ВашID&api_key=YOUR_API_KEY

@@ -1,5 +1,7 @@
 ### Типи транспорту
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб отримати список типів транспорту, потрібно надіслати GET запит на адресу [https://developers.ria.com/auto/categories/?api_key=YOUR_API_KEY](https://developers.ria.com/auto/categories/?api_key=YOUR_API_KEY). Результат буде приблизно наступним:
 ```javascript
 [

@@ -1,5 +1,7 @@
 # AUTO info  Інформація по id оголошення
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб звернутися до RIA API info, Вам необхідно виконати GET запит такого виду:
 
 https://developers.ria.com/auto/info?api_key=YOUR_API_KEY&auto_id=**id_оголошення**

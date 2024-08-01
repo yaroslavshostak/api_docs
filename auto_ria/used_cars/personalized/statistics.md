@@ -1,5 +1,7 @@
 ### Статистика оголошення
 
+**Для перегляду актуальної документації перейдіть у розділ ["Документація"](https://developers.ria.com/docs/)**
+
 Щоб отримати статистику про оголошення, Вам необхідно виконати GET запит такого типу:
 
 https://developers.ria.com/auto/used/autos/advertisementId/statistic?user_id=Ваш ID&api_key=YOUR_API_KEY
